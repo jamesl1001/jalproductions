@@ -1,0 +1,60 @@
+/*===IMAGEBOX===*/
+.imagebox_wrapper {
+  width: 100%;
+  background: #666;
+  margin-bottom: 10px;
+  overflow: auto;
+}
+
+.imagebox {
+  width: 50%;
+  *width: 49.9%;    //IE7
+  padding-bottom: 50%;
+  background: #000;
+  float: left;
+  position: relative;
+  overflow: hidden;
+
+  img {
+    position: absolute;
+    @include transition(margin);
+
+    &:hover {
+      // HOVER ANIMATION HERE
+    }
+  }
+}
+
+.portrait {
+  width: 100%;
+}
+
+.landscape {
+  height: 100%;
+}
+
+.imagebox_open img {
+  width: 100%;
+  cursor: pointer;
+}
+
+@media (min-width: 480px) {
+  .imagebox {
+      width: 25%;
+      padding-bottom: 25%;
+  }
+}
+
+@media (min-width: 720px) {
+  .imagebox {
+      width: 25%;
+      padding-bottom: 25%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .imagebox {
+      width: 12.5%;
+      padding-bottom: 12.5%;
+  }
+}

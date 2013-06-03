@@ -1,0 +1,37 @@
+/*===HOME===*/
+#jalproductions {
+  display: block;
+  margin-top: 30px;
+  font-family: "AngryblueRegular";
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  text-indent: 20px;
+  letter-spacing: 2px;
+}
+
+#mtd {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#james {
+  width: 90%;
+  max-width: 300px;
+  border: 5px solid #FFF;
+  border-radius: 50%;
+  box-shadow: 0 1px 5px #666;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+@media (min-width: 480px) {
+  #jalproductions {
+    font-size: 42px;
+    line-height: 42px;
+  }
+  #mtd {
+    letter-spacing: 4px;
+  }
+}

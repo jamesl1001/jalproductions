@@ -1,0 +1,15 @@
+/*===COLUMNS===*/
+@media (min-width: 1024px) {
+  .col {
+      width: 48%;
+      float: left;
+  }
+
+  .col-p {
+  	margin-right: 1%;
+  }
+
+  .col-s {
+  	margin-left: 1%;
+  }
+}

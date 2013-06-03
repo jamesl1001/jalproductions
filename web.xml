@@ -1,0 +1,552 @@
+<xml>
+	<item short="jalpro4">
+		<title>JaL Productions</title>
+		<status>v4</status>
+		<url>http://jalproductions.co.uk/mf</url>
+		<client>Myself</client>
+		<brief>
+			<![CDATA[
+				<p></p>
+			]]>
+		</brief>
+		<techused>
+			<![CDATA[
+				<ul>
+					<li>Mobile first</li>
+					<li>Responsive</li>
+					<li>Sass/BEM</li>
+					<li>Retina sprites</li>
+					<li>Fluid gallery</li>
+					<li><a href="https://github.com/jamesl1001/Deviant-Art-CMS" target="_blank">DeviantArt/Newgrounds driven content</a></li>
+					<li>XPath</li>
+				</ul>
+			]]>
+		</techused>
+		<image>http://jalproductions.co.uk/mf/img/web/jalpro4.jpg</image>
+	</item>
+
+	<item short="younggrafters">
+		<title>Young Grafters</title>
+		<status>in progress</status>
+		<url>http://www.young-grafters.com/</url>
+		<client>Melvin Appleford</client>
+		<brief>
+			<![CDATA[
+				<p>A branded clothing site built within the BigCartel framework.</p>
+			]]>
+		</brief>
+		<techused>
+			<![CDATA[
+				<ul>
+					<li><a href="http://bigcartel.com/" target="_blank">BigCartel framework</a></li>
+					<li>Home-made <a href="https://github.com/jamesl1001/simpleslider" target="_blank">SimpleSlider</a></li>
+					<li>PayPal integration</li>
+					<li>CSS3 transitions</li>
+				</ul>
+			]]>
+		</techused>
+		<image>http://jalproductions.co.uk/img/web/screens/web18-1.jpg</image>
+	</item>
+
+	<item short="bbcwsresponsive">
+		<title>BBC WS Responsive</title>
+		<status></status>
+		<url multiple="true">
+			<![CDATA[
+				<a href="http://m.bbc.co.uk/afrique" target="_blank">BBC Afrique</a> | 
+				<a href="http://m.bbc.co.uk/hausa" target="_blank">BBC Hausa</a> | 
+				<a href="http://m.bbc.co.uk/hindi" target="_blank">BBC Hindi</a> | 
+				<a href="http://m.bbc.co.uk/indonesia" target="_blank">BBC Indonesia</a> | 
+				<a href="http://m.bbc.co.uk/mundo" target="_blank">BBC Mundo</a> | 
+				<a href="http://m.bbc.co.uk/russian" target="_blank">BBC Russian</a>
+			]]>
+		</url>
+		<client>
+			<![CDATA[
+				<a href="http://www.bbc.co.uk/worldservice/languages/index.shtml" target="_blank"><img src="http://static.bbci.co.uk/frameworks/barlesque/2.44.2/mobile/3.5/img/blocks_240.png" alt="BBC"/></a>
+			]]>
+		</client>
+		<brief>
+			<![CDATA[
+				<h5>BBC Indonesia</h5>
+				<p>The new BBC Indonesia site is claimed to be the first responsive Asian major news site.</p>
+				<p>Working off the <a href="http://m.bbc.co.uk/news" target="_blank">BBC News</a> codebase, we have produced a localised version of the site.</p>
+				<p>Also got a small mention on the BBC Internet Blog: <a href="http://www.bbc.co.uk/blogs/bbcinternet/2012/12/indonesian_site.html" target="_blank">http://www.bbc.co.uk/blogs/bbcinternet/2012/12/indonesian_site.html</a></p>
+				<h5>BBC Hausa</h5>
+				<p>This is the second site we have released.</p>
+				<p>The one thing that is different (excluding the obvious translations, sub-indexes, etc) is the link to "Bidiyo" (Video) on the index page, which links back to a restyled old stack page. This is an interim solution while we get our video pages working.</p>
+			]]>
+		</brief>
+		<techused>
+			<![CDATA[
+				<ul>
+					<li>HTML5, CSS3</li>
+					<li>Sass</li>
+					<li>MVC PHP</li>
+					<li>Responsive mobile-first</li>
+					<li>Lightweight/high performance</li>
+					<li>PAL</li>
+					<li>Forge platform</li>
+					<li>Automated testing (Cucumber, QUnit, PHP unit tests)</li>
+				</ul>
+			]]>
+		</techused>
+		<image>http://jalproductions.co.uk/img/web/screens/web17-1.jpg</image>
+	</item>
+
+	<item short="jos">
+		<title>jOS</title>
+		<status>alpha</status>
+		<url>http://jalproductions.co.uk/projects/jOS/</url>
+		<client>Myself</client>
+		<brief>
+			<![CDATA[
+				<p>An experimentative project using the latest technologies to build a web-based "desktop".</p>
+				<p><strong>Features:</strong></p>
+				<ul>
+					<li>Apps:
+						<ul>
+							<li>Google Document</li>
+							<li>Google Presentation</li>
+							<li>Google Spreadsheet</li>
+							<li>Google Drawing</li>
+							<li>Grooveshark</li>
+							<li>Pixlr</li>
+						</ul>
+					</li>
+					<li>Draggable desktop icons and windows</li>
+					<li>Window depth-ish</li>
+					<li>Change background image</li>
+					<li>Checks if user is logged in to Google</li>
+				</ul>
+			]]>
+		</brief>
+		<techused>
+			<![CDATA[
+				<ul>
+					<li>HTML5 localStorage</li>
+					<li>CSS3 transitions &amp; animations</li>
+					<li>jQuery UI draggable</li>
+					<li>Decoupling of app data into JSON files</li>
+				</ul>
+			]]>
+		</techused>
+		<image>http://jalproductions.co.uk/img/web/screens/web16-1.jpg</image>
+	</item>
+
+	<item short="bbcwsolympics">
+		<title>BBC WS Olympics Live Action Feeds</title>
+		<status></status>
+		<url>http://www.bbc.co.uk/worldservice/syndication/features/olympic_live_wide/sinhala/</url>
+		<client>
+			<![CDATA[
+				<a href="http://www.bbc.co.uk/worldservice/languages/index.shtml" target="_blank"><img src="http://static.bbci.co.uk/frameworks/barlesque/2.44.2/mobile/3.5/img/blocks_240.png" alt="BBC"/></a>
+			]]>
+		</client>
+		<brief>
+			<![CDATA[
+				<p>Achieving <strong>1.6 million page impressions</strong> on story pages alone, the Olympics Live Action Feeds module was the most popular of all the Olympics related projects built by the BBC World Service team during this year's games.</p>
+				<p>The module comprised of five main components:</p>
+				<ul>
+					<li><strong>Coming up</strong> - Displays the time until the next five events, highlighting any which are under 15 minutes.</li>
+					<li><strong>Latest gold medalists</strong> - A progress bar shows the total number of gold medals won; and on hovering over the white circle, a popup box displays the name, country and event of the latest gold medalist.</li>
+					<li><strong>Medal table</strong> - Displays the medals won by the top five countries.</li>
+					<li><strong>In detail</strong> - A personalised medal table showing a select list of countries selected by that language service.</li>
+					<li><a href="http://www.bbc.co.uk/sinhala/sport/2012/07/120718_olympics_2012_medals_table.shtml" target="_blank"><strong>Full medal table</strong></a> - A medal table containing all the countries whom have won medals</li>
+				</ul>
+				<p>This was my first project working for the BBC.</p>
+			]]>
+		</brief>
+		<techused>
+			<![CDATA[
+				<ul>
+					<li>Supports 27 languages</li>
+					<li>Left-to-right and right-to-left</li>
+					<li>jQuery/AJAX data manipulation</li>
+					<li>JavaScript accordion</li>
+					<li>XML feeds</li>
+				</ul>
+			]]>
+		</techused>
+		<image>http://jalproductions.co.uk/img/web/screens/web15-1.jpg</image>
+	</item>
+
+	<item short="innuendome">
+		<title>innuen;)do.me</title>
+		<status>alpha</status>
+		<url>http://jalproductions.co.uk/projects/innuendome</url>
+		<client>Myself</client>
+		<brief>
+			<![CDATA[
+				<p>innuen;)do.me is a small, silly side project I have been working on. I came up with the concept several months ago, but didn't have the skills to program it.</p>
+				<p>The minimalistic site allows users to submit and rate innuendos. Innuendos can be sorted by genre to allow users to find exactly what they're looking for. Users can also share their favourite innuendos with their friends on Facebook.</p>
+			]]>
+		</brief>
+		<techused>
+			<![CDATA[
+				<ul>
+					<li>Cookies</li>
+					<li>User submission and rating system</li>
+					<li>Customised Facebook social like plugin</li>
+					<li>Endless scrolling</li>
+					<li>jQuery auto-complete</li>
+					<li>jQuery animation</li>
+					<li>MySQL/PHP database driven content</li>
+					<li>Ajax calls</li>
+					<li>Home-made anti-spam</li>
+				</ul>
+			]]>
+		</techused>
+		<image>http://jalproductions.co.uk/img/web/screens/web14-1.jpg</image>
+	</item>
+
+	<item short="jalpro3">
+		<title>JaL Productions</title>
+		<status>v3 deprecated</status>
+		<url>http://jalproductions.co.uk/v3</url>
+		<client>Myself</client>
+		<brief>
+			<![CDATA[
+				<p>My updated site was built for several purposes. Database loaded content which is easily updated, a clean design that focuses on content and the use of new HTML5 and CSS3 standards.</p>
+			]]>
+		</brief>
+		<techused>
+			<![CDATA[
+				<ul>
+					<li>HTML5 tags</li>
+					<li>CSS3 transitions</li>
+					<li>jQuery CSS size calculations on thumbnail boxes</li>
+					<li>jQuery image galleries</li>
+					<li>MySQL/PHP driven content</li>
+					<li>Fluid layout</li>
+					<li>Responsive design</li>
+				</ul>
+			]]>
+		</techused>
+		<image>http://jalproductions.co.uk/img/web/screens/web13-1.jpg</image>
+	</item>
+
+	<item short="delhikitchen">
+		<title>Delhi Kitchen</title>
+		<status>expired</status>
+		<url>http://jalproductions.co.uk/projects/DelhiKitchen</url>
+		<client>Mohammed Rahmen, Proprietor</client>
+		<brief>
+			<![CDATA[
+				<img src="../img/PPproject.png" alt="Precise Pixels project" title="Precise Pixels project"/>
+				<p>A basic information website, with menus and contact information.</p>
+			]]>
+		</brief>
+		<techused>
+			<![CDATA[
+				<ul>
+					<li>HTML5 tags</li>
+					<li>CSS text-shadow trick to imitate a stroke</li>
+					<li>td+td CSS hack to select every field in a table column</li>
+					<li>Google Maps embed</li>
+					<li>My photography (excluding the gallery page)</li>
+				</ul>
+			]]>
+		</techused>
+		<image>http://jalproductions.co.uk/img/web/screens/web12-1.jpg</image>
+	</item>
+
+	<item short="peopleunited2">
+		<title>People United Redesign</title>
+		<status></status>
+		<url>http://peopleunited.org.uk/</url>
+		<client>Tom Andrews, Chief Executive</client>
+		<brief>
+			<![CDATA[
+				<img src="../img/PPproject.png" alt="Precise Pixels project" title="Precise Pixels project"/>
+				<p>This re-design included a cleaner layout and the ability for the client to easily update content. I am currently implementing a login system to allow the client to track who downloads what to follow up for feedback.</p>
+			]]>
+		</brief>
+		<techused>
+			<![CDATA[
+				<ul>
+					<li>MySQL/PHP database driven content</li>
+					<li>Wordpress blog (with embeds)</li>
+					<li>RSS news feed</li>
+					<li>Home-made anti-spam</li>
+					<li>jQuery image galleries</li>
+					<li>Login system
+						<ul>
+							<li>Sign up</li>
+							<li>Reset password</li>
+							<li>PHP sessions</li>
+						</ul>
+					</li>
+					</ul>
+			]]>
+		</techused>
+		<image>http://jalproductions.co.uk/img/web/screens/web11-1.jpg</image>
+	</item>
+
+	<item short="hollandtransfersolutions">
+		<title>Holland Transfer Solutions</title>
+		<status></status>
+		<url>http://taxiholland.com/</url>
+		<client>Francisco Marti</client>
+		<brief>
+			<![CDATA[
+				<img src="../img/PPproject.png" alt="Precise Pixels project" title="Precise Pixels project"/>
+				<p>"Holland Transfer Solutions is an executive taxi service based in the Rotterdam, Amsterdam and The Hague areas of Holland.</p>
+				<p>The client was not happy with their old website and we had some ideas of ways to improve it.</p>
+				<p>We are giving it a new, slick feel ensuring that the professional, executive integrity of Holland Transfer Solutions is reflected in their website."</p>
+				<p><a href="http://taxiholland.com/OLDSITE/" target="_blank">The old site</a></p>
+			]]>
+		</brief>
+		<techused>
+			<![CDATA[
+				<ul>
+					<li>Randomised background photo</li>
+					<li>Home-made jQuery content sliders</li>
+					<li>jQuery form validation</li>
+					<li>Ajax same-page form submission</li>
+				</ul>
+			]]>
+		</techused>
+		<image>http://jalproductions.co.uk/img/web/screens/web10-1.jpg</image>
+	</item>
+
+	<item short="northfleetpress">
+		<title>Northfleet Press</title>
+		<status>pending</status>
+		<url>http://jalproductions.co.uk/projects/NorthfleetPress/</url>
+		<client>Northfleet Press</client>
+		<brief>
+			<![CDATA[
+				<p>Site re-design for this Northfleet-based printing business.</p>
+			]]>
+		</brief>
+		<techused>
+			<![CDATA[
+				<ul>
+					<li>HTML5 tags</li>
+					<li>CSS3</li>
+					<li>Smooth scroll</li>
+					<li>jQuery animations</li>
+					<li>jQuery height hacks</li>
+					<li>Google Maps embed</li>
+				</ul>
+			]]>
+		</techused>
+		<image>http://jalproductions.co.uk/img/web/screens/web9-1.jpg</image>
+	</item>
+
+	<item short="thepekingrestaurant">
+		<title>The Peking Restaurant</title>
+		<status></status>
+		<url>http://pekingrestaurantgravesend.co.uk/</url>
+		<client>Loong, Proprietor</client>
+		<brief>
+			<![CDATA[
+				<img src="../img/PPproject.png" alt="Precise Pixels project" title="Precise Pixels project"/>
+				<p>"The Peking Restaurant is a traditional chinese restaurant in Gravesend.</p>
+				<p>Their old website is a virtually purposeless template website that does not do the restaurant any justice.</p>
+				<p>We are creating them a basic but professional website to showcase the restaurant with menus, prices and photos taken by us."</p>
+			]]>
+		</brief>
+		<techused>
+			<![CDATA[
+				<ul>
+					<li>td+td CSS hack to select every field in a table column</li>
+					<li>Google Maps embed</li>
+					<li>My photography</li>
+				</ul>
+			]]>
+		</techused>
+		<image>http://jalproductions.co.uk/img/web/screens/web8-1.jpg</image>
+	</item>
+
+	<item short="precisepixels">
+		<title>Precise Pixels</title>
+		<status></status>
+		<url>http://www.precisepixels.co.uk/</url>
+		<client>Precise Pixels</client>
+		<brief>
+			<![CDATA[
+				<img src="../img/PPproject.png" alt="Precise Pixels project" title="Precise Pixels project"/>
+				<p>Precise Pixels is my web design company I co-founded with my university coursemate. He designs, I code.</p>
+			]]>
+		</brief>
+		<techused>
+			<![CDATA[
+				<ul>
+					<li>Multi-directional jQuery site</li>
+					<li>jQuery UI colour animations</li>
+					<li>jQuery accordian data table</li>
+					<li>Home-made jQuery image sliders</li>
+					<li>Ajax same-page form submission</li>
+					<li>CSS 3D transform</li>
+				</ul>
+			]]>
+		</techused>
+		<image>http://jalproductions.co.uk/img/web/screens/web7-1.jpg</image>
+	</item>
+
+	<item short="peopleunited1">
+		<title>People United</title>
+		<status>deprecated</status>
+		<url>http://www.peopleunited.org.uk/OldSite/</url>
+		<client>Tom Andrews, Chief Executive</client>
+		<brief>
+			<![CDATA[
+				<p>People United is an arts charity based in Canterbury</p>
+				<p>I work here as a Web Consultant maintaining their website and doing any design or computer-related work that they require.</p>
+				<p>The work I did on the website involved altering and adding things to their existent website. The majority of the current code was written by the previous developer.</p>
+			]]>
+		</brief>
+		<techused>
+			<![CDATA[
+				<ul>
+					<li>jQuery animations &amp; lightbox</li>
+					<li>Font-size accessibility</li>
+				</ul>
+			]]>
+		</techused>
+		<image>http://jalproductions.co.uk/img/web/screens/web6-1.jpg</image>
+	</item>
+
+	<item short="jalpro2">
+		<title>JaL Productions</title>
+		<status>v2 deprecated</status>
+		<url>http://jalproductions.co.uk/projects/OldSite/</url>
+		<client>Myself</client>
+		<brief>
+			<![CDATA[
+				<p>I felt like it was time for a change. The old site was extremely outdated layout-wise, still utilising a table-based layout, the design was old and boring, content was cumbersome to update and visitors/devices without a Flash Player were doomed to stay on the home page for as long as they could last without hitting Alt+F4! Another reason for the update is the fact that my uni course has helped my understanding of CSS greatly - thus I feel I should put it to good use!</p>
+			]]>
+		</brief>
+		<techused>
+			<![CDATA[
+				<ul>
+					<li>MySQL/PHP driven news and comments</li>
+					<li>jQuery image slideshow</li>
+					<li>jQuery sub-navigation</li>
+					<li>jQuery lightbox</li>
+				</ul>
+			]]>
+		</techused>
+		<image>http://jalproductions.co.uk/img/web/screens/web5-1.jpg</image>
+	</item>
+
+	<item short="actionongilbertssyndrome">
+		<title>Action on Gilbert's Syndrome - Interaction Design University Project</title>
+		<status></status>
+		<url>http://ags.net76.net/</url>
+		<client>University Project</client>
+		<brief>
+			<![CDATA[
+				<p>We were given a real charity website (<a href="http://www.gilbertssyndrome.org.uk/" target="_blank">http://www.gilbertssyndrome.org.uk/</a>) to redesign after learning the theory from our Interaction Design lectures at the University of Kent.</p>
+				<p>In groups of four, our task was to redesign an existing charity website.</p>
+				<p>I worked as the programmer, and there were two designers and one writer.</p>
+			]]>
+		</brief>
+		<techused>
+			<![CDATA[
+				<ul>
+					<li>jQuery rollovers</li>
+					<li>Content database</li>
+					<li>Java chat client</li>
+					<li>Contrast &amp; font-size accessibility</li>
+				</ul>
+			]]>
+		</techused>
+		<image>http://jalproductions.co.uk/img/web/screens/web4-1.jpg</image>
+	</item>
+
+	<item short="webdesignuniversityproject">
+		<title>Web Design University Project</title>
+		<status></status>
+		<url>http://precisepixels.co.uk/jal33/</url>
+		<client>University Project</client>
+		<brief>
+			<![CDATA[
+				<p>This website was made as a project for the Website Design section of my course.</p>
+				<p>Project Brief: The project includes creating a website using HTML, which is styled purely with CSS.</p>
+				<p>Your site must contain at least six pages: a home page, pages about your favourite music, films and websites, and two other pages of your choice.</p>
+				<p>Your site should include a mixture of text and images, and all links must be fully functional. It is also important to include links to external sites that relate to your content. Your site must work in both Firefox and Internet Explorer and must have validated markup.</p>
+			]]>
+		</brief>
+		<techused>
+			<![CDATA[
+				<ul>
+					<li>HTML5 tags</li>
+					<li>CSS3 rounded corners &amp; font-face</li>
+					<li>Javascript accordion menu</li>
+					<li>Embedded Youtube and Flash content</li>
+				</ul>
+			]]>
+		</techused>
+		<image>http://jalproductions.co.uk/img/web/screens/web3-1.jpg</image>
+	</item>
+
+	<item short="learnmaths">
+		<title>'Learn Maths' Javascript University Project</title>
+		<status></status>
+		<url>http://jalproductions.co.uk/projects/LearnMaths/</url>
+		<client>University Project</client>
+		<brief>
+			<![CDATA[
+				<p>Project Brief: Develop a javascript webpage that will help an elementary school student to learn multiplication.</p>
+				<p>In order to 'go further', I made separate pages for the other arithmetic signs.</p>
+				<p>Each page randomly generates two numbers between 1 and 12 for the student to calculate.</p>
+				<p>The division page had be constructed slightly differently, as 2 / 11 isn't a feasible calculation for a student without a calculator! Thus the numbers are randomly selected from an array of preset, easy set of numbers (e.g. 44 / 11).</p>
+			]]>
+		</brief>
+		<techused>
+			<![CDATA[
+				<ul>
+					<li>HTML5 tags</li>
+					<li>Javascript random numbers</li>
+					<li>Javascript random responses from an array</li>
+				</ul>
+			]]>
+		</techused>
+		<image>http://jalproductions.co.uk/img/web/screens/web2-1.jpg</image>
+	</item>
+
+	<item short="jalpro1">
+		<title>JaL Productions</title>
+		<status>v1 deprecated</status>
+		<url>http://jalproductions.webege.com/</url>
+		<client>Myself</client>
+		<brief>
+			<![CDATA[
+				<p>My very first website.</p>
+			]]>
+		</brief>
+		<techused>
+			<![CDATA[
+				<ul>
+					<li>Flash menu with rollovers</li>
+					<li>Facebook embed</li>
+					<li>Flash image viewers</li>
+				</ul>
+			]]>
+		</techused>
+		<image>http://jalproductions.co.uk/img/web/screens/web1-1.jpg</image>
+	</item>
+
+	<!--<item short="">
+		<title></title>
+		<status></status>
+		<url></url>
+		<client></client>
+		<brief>
+			<![CDATA[
+				<p></p>
+			]]>
+		</brief>
+		<techused>
+			<![CDATA[
+				<ul>
+					<li></li>
+				</ul>
+			]]>
+		</techused>
+		<image></image>
+	</item>-->
+</xml>

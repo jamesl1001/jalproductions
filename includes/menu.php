@@ -1,0 +1,27 @@
+<nav id="menu">
+    <div id="menu_wrapper">
+        <h1>Menu</h1>
+        <h2>Work</h2>
+        <ul class="menu_section menu_section-work">
+            <li class="threed"><a href="3d">3D</a></li>
+            <li class="artdesign"><a href="artdesign">Art &amp; Design</a></li>
+            <li class="flash"><a href="flash">Flash</a></li>
+            <li class="music"><a href="music">Music</a></li>
+            <li class="photography"><a href="photography">Photography</a></li>
+            <li class="programming"><a href="programming">Programming</a></li>
+            <li class="web"><a href="web">Web</a></li>
+        </ul>
+        <h2>Social</h2>
+        <ul class="menu_section menu_section-social">
+            <li class="facebook"><a href="https://www.facebook.com/jalproductions" target="_blank">Facebook</a></li>
+            <li class="deviantart"><a href="http://fu51on.deviantart.com/" target="_blank">DeviantArt</a></li>
+            <li class="youtube"><a href="http://www.youtube.com/user/MrLeeProductions" target="_blank">YouTube</a></li>
+            <li class="newgrounds"><a href="http://fu5ion.newgrounds.com/" target="_blank">Newgrounds</a></li>
+            <li class="github"><a href="https://github.com/jamesl1001" target="_blank">GitHub</a></li>
+            <li class="linkedin"><a href="http://www.linkedin.com/profile/view?id=145872637" target="_blank">LinkedIn</a></li>
+            <li class="googleplus"><a href="https://plus.google.com/116274038898998688233" target="_blank">Google+</a></li>
+        </ul>
+        <h2>&nbsp;</h2>
+        <p><a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" title="All work by JaL Productions is licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License">&copy; JaL Productions 2013</a></p>
+    </div>
+</nav>

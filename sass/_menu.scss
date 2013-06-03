@@ -1,0 +1,146 @@
+/*===MENU===*/
+#menu_wrapper {
+  padding: 10px;
+}
+
+#menu {
+  width: 100%;
+  background: #EEE;
+  border-top: 5px solid $blue;
+  clear: both;
+  z-index: 2;
+
+  h1 {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  h2 {
+    border-bottom: 1px solid #CCC;
+    margin-bottom: 5px;
+    clear: both;
+    color: #999;
+    font-size: 12px;
+    line-height: 19px;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+    width: 100%;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+    @include transition(background-color);
+  }
+
+  li a {
+    height: 100%;
+    display: block;
+    text-indent: 40px;
+  }
+
+  li:hover {
+    background-color: $blue;
+
+    & a {
+      color: #FFF;
+      text-decoration: none;
+    }
+  }
+}
+
+.menu_section {
+  li {
+    background: url(img/menu_sprites.png) 10px 10px no-repeat;
+
+    @media (-webkit-min-device-pixel-ratio: 1.3),
+         (-o-min-device-pixel-ratio: 2.6/2),
+         (min--moz-device-pixel-ratio: 1.3),
+         (min-device-pixel-ratio: 1.3),
+         (min-resolution: 1.3dppx) {
+      background: url(img/menu_sprites-x2.png) 10px 10px no-repeat;
+      background-size: 20px 540px;
+    }
+  }
+
+  .threed {
+    background-position: 10px 10px;
+  }
+
+  .artdesign {
+    background-position: 10px -30px;
+  }
+
+  .flash {
+    background-position: 10px -70px;
+  }
+
+  .music {
+    background-position: 10px -110px;
+  }
+
+  .photography {
+    background-position: 10px -150px;
+  }
+
+  .programming {
+    background-position: 10px -190px;
+  }
+
+  .web {
+    background-position: 10px -230px;
+  }
+
+  .facebook {
+    background-position: 10px -270px;
+  }
+
+  .deviantart {
+    background-position: 10px -310px;
+  }
+
+  .youtube {
+    background-position: 10px -350px;
+  }
+
+  .newgrounds {
+    background-position: 10px -390px;
+  }
+
+  .github {
+    background-position: 10px -430px;
+  }
+
+  .linkedin {
+    background-position: 10px -470px;
+  }
+
+  .googleplus {
+    background-position: 10px -510px;
+  }
+}
+
+.js {
+  #menu {
+    position: absolute;
+    top: -5px;
+    left: 100%;
+  }
+}
+
+@media (min-width: 480px) {
+  #menu li {
+      width: 50%;
+  }
+}
+
+@media (min-width: 720px) {
+  #menu li {
+      width: 25%;
+  }
+}

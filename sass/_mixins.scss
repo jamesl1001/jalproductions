@@ -1,0 +1,35 @@
+@mixin hover-fade {
+  zoom: 1;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  filter: alpha(opacity=70);
+  opacity: 0.7;
+}
+
+@mixin border-box {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@mixin transition($value) {
+  @if length($value) == 1 {
+    -webkit-transition: $value .3s;
+    -moz-transition: $value .3s;
+    -ms-transition: $value .3s;
+    -o-transition: $value .3s;
+    transition: $value .3s;
+  } @elseif length($value) == 2 {
+    -webkit-transition: nth($value, 1) .3s, nth($value, 2) .3s;
+    -moz-transition: nth($value, 1) .3s, nth($value, 2) .3s;
+    -ms-transition: nth($value, 1) .3s, nth($value, 2) .3s;
+    -o-transition: nth($value, 1) .3s, nth($value, 2) .3s;
+    transition: nth($value, 1) .3s, nth($value, 2) .3s;
+  }
+}
+
+@mixin vendor($property, $value) {
+  -webkit-#{$property}: $value;
+  -moz-#{$property}: $value;
+  -ms-#{$property}: $value;
+  -o-#{$property}: $value;
+  #{$property}: $value;
+}

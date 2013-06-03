@@ -1,0 +1,185 @@
+/*===HEADER===*/
+header {
+  width: 100%;
+  min-width: $minw;
+  height: 40px;
+  background: $blue;
+  position: relative;
+  z-index: 3;
+  color: #EEE;
+}
+
+header h1 {
+  width: 70px;
+  height: 100%;
+  margin: 0;
+  border-right: 1px solid $lblue;
+  box-shadow: 1px 0 0 $dblue;
+  float: left;
+  font-family: "AngryblueRegular";
+  font-size: 18px;
+  text-indent: 18px;
+  line-height: 44px;
+}
+
+header h1 a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  color: #EEE;
+}
+
+header a {
+  @include transition(opacity);
+}
+
+header a:hover {
+  @include hover-fade;
+  text-decoration: none;
+}
+
+#jal {
+  letter-spacing:3px;
+}
+
+#productions {
+  display: none;
+}
+
+.header_nav {
+  height: 100%;
+  position: absolute;
+
+  ul {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  ul li {
+    height: 100%;
+    float: left;
+  }
+
+  ul li a {
+    height: 100%;
+    display: block;
+    text-indent: -9999px;
+  }
+}
+
+.header_nav-p a,
+.header_nav-s a,
+#menu_btn {
+  background: url(img/header_sprites.png) no-repeat;
+
+  @media (-webkit-min-device-pixel-ratio: 1.3),
+         (-o-min-device-pixel-ratio: 2.6/2),
+         (min--moz-device-pixel-ratio: 1.3),
+         (min-device-pixel-ratio: 1.3),
+         (min-resolution: 1.3dppx) {
+    background: url(img/header_sprites-x2.png) no-repeat;
+    background-size: 20px 500px;
+  }
+}
+
+.header_nav-p {
+  left: 70px;
+  right: 40px;
+
+  li {
+    width: 33%;
+  }
+
+  .about {
+    background-position: center 10px;
+  }
+
+  .blog {
+    background-position: center -30px;
+  }
+
+  .contact {
+    background-position: center -70px;
+  }
+}
+
+.header_nav-s {
+  display: none;
+
+  .threed {
+    background-position: center -230px;
+  }
+
+  .artdesign {
+    background-position: center -270px;
+  }
+
+  .flash {
+    background-position: center -310px;
+  }
+
+  .music {
+    background-position: center -350px;
+  }
+
+  .photography {
+    background-position: center -390px;
+  }
+
+  .programming {
+    background-position: center -430px;
+  }
+
+  .web {
+    background-position: center -470px;
+  }
+}
+
+#menu_btn {
+  background-position: center -110px;
+  text-indent: -9999px;
+}
+
+.menu-open #menu_btn {
+  background-position: center -150px;
+}
+
+#menu_btn {
+  width: 40px;
+  height: 100%;
+  border-left: 1px solid $lblue;
+  box-shadow: -1px 0 0 $dblue;
+  float: right;
+}
+
+@media (min-width: 480px) {
+  header h1 {
+    width: 180px;
+  }
+
+  #productions {
+    display: inline;
+  }
+
+  .header_nav-p {
+    left: 180px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header_nav-p {
+    width: 180px;
+  }
+
+  .header_nav-s {
+    width: 420px;
+    display: block;
+    right: 40px;
+
+    ul li {
+      width: 14.28%;
+    }
+  }
+}

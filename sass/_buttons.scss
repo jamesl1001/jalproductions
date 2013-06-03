@@ -1,0 +1,45 @@
+/*===BUTTONS===*/
+.button {
+  width: 100%;
+  height: 40px;
+  background: $blue;
+  margin-bottom: 10px;
+  display: block;
+  cursor: pointer;
+  color: #EEE;
+  text-align: center;
+  line-height: 40px;
+  @include transition(color);
+}
+
+.button:hover {
+  color: $hwhite;
+  text-decoration: none;
+}
+
+.button-half {
+  width: 49%;
+  float: left;
+}
+
+.loading {
+  background: $blue url(img/spinner.gif) no-repeat center;
+  text-indent: -9999px;
+}
+
+.icon_after {
+  text-indent: -30px;
+}
+
+.icon_after::after {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+  content: '';
+}
+
+.icon_after-youtube::after {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAPdJREFUeNpifPfuHQMQ7AbiMiA+z0AhYILSLkB8BojnArE0NQyEsZOA+DYQtwAxD6UGwgAnEFcD8S0gzgRiFkoNhAFJIJ4GxBeB2JMaBsKAFhBvA+L9QGxIDQNhwAEacfOBWI4aBsLUJwDxDVwRx0Rm6oBF3D0gzkKOOCYK07EoEE+FRpwvNQyEgZ9A/JuB1DSGBTwH4hogXgDE/ygx8AsQdwBxPxB/Q5Yg1cA/0GRTD3UdBiDFwB1AXAzE1yhN2OehpZEnIcMIGfgYiJOB2ASI9xLrDRY8Ad4HxN9JjS0WtACfBc1Sz8lNRzADQaVJKTFhRAgABBgA4q8uigRylwIAAAAASUVORK5CYII=);
+}

@@ -1,0 +1,53 @@
+/*===WEB===*/
+.web_project {
+  clear: both;
+}
+
+.web_image {
+  width: 100%;
+  max-width: 480px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px #CCC;
+}
+
+.web_link_icon {
+  width: 16px;
+  height: 16px;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAO1JREFUeNqcU+0RgjAMjVwH6Ah1A91ANtANZAQncAT9yy/YQDegI3QDGYERbLyUe8RW7szdO1LIe/mg2bRtS3/YLmJgx6wEHgTJfMQkZMt+SYA/PhSZ7Qo+C9WmQB6kTLZR4ATJ6ohQrZAvEVt52kwsVT/ITcQd3lspe4T5LAQ6lbnHTKlnECD8C6x2FL+XzAQz2IvApOawEEjBjcpKkLUDAa9bSIHcxktAqsWz+M+SgIOBlchBqiQU8CBgYWA5cg2tzTOYVEY+39Tl+SIngXkxVCtO7cApk+gjMKiybWaBfGnbjLokQc1k1d4CDACXOD47sdZLdwAAAABJRU5ErkJggg==) no-repeat;
+  margin-left: 5px;
+  display: inline-block;
+  text-indent: -9999px;
+}
+
+#web_navigation {
+  height: 40px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+#web_newer,
+#web_older {
+  position: absolute;
+}
+
+#web_newer {
+  left: 0;
+}
+
+#web_older {
+  right: 0;
+}
+
+@media (min-width: 1140px) {
+  #web_navigation {
+    height: 0;
+    margin-bottom: 0;
+    position: static;
+  }
+
+  #web_newer,
+  #web_older {
+    width: 50px;
+    height: 80px;
+  }
+}
