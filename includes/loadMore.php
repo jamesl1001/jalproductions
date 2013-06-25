@@ -13,7 +13,7 @@ switch($page) {
 		$album = 27123391;
 		break;
 }
-$html  = getDeviations("http://backend.deviantart.com/rss.xml?q=gallery:fu51on/$album", 8, $start);
+$html  = getDeviations("http://backend.deviantart.com/rss.xml?q=gallery:fu51on/$album", 8, $start, true);
 $_SESSION['loaded'] = $_SESSION['loaded'] + 8;
 // var_dump($_SESSION['loaded']);
 echo $html;

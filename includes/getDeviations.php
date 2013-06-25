@@ -1,7 +1,7 @@
 <?php
 include 'getOrientation.php';
 
-function getDeviations($url, $limit = null, $start = 0) {
+function getDeviations($url, $limit = null, $start = 0, $loadmore = false) {
     $feed      = simplexml_load_file($url);
     $channel   = $feed->channel;
     $i         = 0;
@@ -11,14 +11,15 @@ function getDeviations($url, $limit = null, $start = 0) {
         if($i < $start) { $i++; continue; }
         if(isset($limit) && $i == $start + $limit) break;
 
-        $title = $item->title;
-        $url   = $item->link;
-        $date  = $item->pubDate;
-        $thumb = $item->children('media', true)->thumbnail->{1}->attributes()->url;
-        $image = $item->children('media', true)->content->attributes()->url;
+        $title       = $item->title;
+        $url         = $item->link;
+        $date        = $item->pubDate;
+        $thumb       = $item->children('media', true)->thumbnail->{1}->attributes()->url;
+        $image       = $item->children('media', true)->content->attributes()->url;
         $orientation = getOrientation($image);
+        $onload      = $loadmore ? "onload=\"imgloaded();\"" : "";
 
-        $html .= "<div class=\"imagebox image\"><a href=\"$image\"><img src=\"$thumb\" class=\"$orientation\" alt=\"$title\" title=\"$title\"/></a></div>";
+        $html .= "<div class=\"imagebox image\"><a href=\"$image\"><img src=\"$thumb\" class=\"$orientation\" alt=\"$title\" title=\"$title\" $onload/></a></div>";
         $i++;
     }
     return $html;

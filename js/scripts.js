@@ -4,7 +4,8 @@ $(document).ready(function() {
     $('body').addClass('js');
     $menu = $('#menu');
     $view = $('#viewport');
-    var device = '';
+    device = '';
+    imgsloaded = 0;
 });
 
 $(window).load(function() {
@@ -91,6 +92,7 @@ $('.image img').live('click', function(e) {
 });
 
 $('#load_more').click(function(e) {
+    nBefore = $('.imagebox').size();
     append($(this).data('page'));
 });
 
@@ -112,9 +114,6 @@ function append(page) {
                 start += 8;
                 $('.imagebox_wrapper').append(data);
                 $('#load_more').removeClass('loading');
-                setTimeout(function() { // temp solution
-                    alignThumbnails();  // fails if images haven't finished loading
-                }, 1000);
                 if($(data).find('.imagebox').prevObject.length < 8) {
                     $('#load_more').hide();
                 }
@@ -126,6 +125,16 @@ function append(page) {
         });
     }
 };
+
+function imgloaded() {
+    imgsloaded++;
+    var n = $('.imagebox').size() - nBefore;
+    // *2 because: http://stackoverflow.com/questions/10816053/jquery-img-added-through-append-triggers-onload-twice
+    if(imgsloaded == n*2) {
+        alignThumbnails();
+        imgsloaded = 0;
+    }
+}
 
 /*===FUNCTIONS===*/
 function alignThumbnails() {
