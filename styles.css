@@ -55,6 +55,12 @@ p {
   font-size: 14px;
 }
 
+.center_italic {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
 a {
   color: #6699cc;
   text-decoration: none;
@@ -120,6 +126,11 @@ iframe {
   overflow: hidden;
 }
 
+@media (min-width: 480px) {
+  .center_italic {
+    letter-spacing: 4px;
+  }
+}
 @media (min-width: 1000px) {
   .centre {
     width: 1000px;
@@ -584,18 +595,12 @@ header a:hover {
   letter-spacing: 2px;
 }
 
-#mtd {
-  margin-top: 10px;
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-#james {
+.circle {
   width: 90%;
   max-width: 300px;
   border: 5px solid white;
   border-radius: 50%;
-  box-shadow: 0 1px 5px #666666;
+  box-shadow: 0 1px 5px #999999;
   display: block;
   margin: 0 auto 20px;
 }
@@ -604,10 +609,6 @@ header a:hover {
   #jalproductions {
     font-size: 42px;
     line-height: 42px;
-  }
-
-  #mtd {
-    letter-spacing: 4px;
   }
 }
 /*===PROGRAMMING===*/

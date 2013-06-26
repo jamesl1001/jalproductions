@@ -58,6 +58,12 @@ p {
   font-size: 14px;
 }
 
+.center_italic {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
 a {
   color: $blue;
   text-decoration: none;
@@ -121,6 +127,12 @@ iframe {
   background: #EEE;
   padding: 10px;
   overflow: hidden;
+}
+
+@media (min-width: 480px) {
+  .center_italic {
+    letter-spacing: 4px;
+  }
 }
 
 @media (min-width: 1000px) {

@@ -11,7 +11,7 @@
             <h2>About</h2>
             <div class="centre">
                 <div class="content_box" id="face">
-                    <img src="img/james.jpg" id="james" alt="James Alexander Lee" itemprop="photo"/>
+                    <img src="img/james.jpg" class="circle" alt="James Alexander Lee" itemprop="photo"/>
                 </div>
 
                 <div class="content_box" id="me">

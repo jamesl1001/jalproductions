@@ -10,18 +10,12 @@
   letter-spacing: 2px;
 }
 
-#mtd {
-  margin-top: 10px;
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-#james {
+.circle {
   width: 90%;
   max-width: 300px;
   border: 5px solid #FFF;
   border-radius: 50%;
-  box-shadow: 0 1px 5px #666;
+  box-shadow: 0 1px 5px #999;
   display: block;
   margin: 0 auto 20px;
 }
@@ -30,8 +24,5 @@
   #jalproductions {
     font-size: 42px;
     line-height: 42px;
-  }
-  #mtd {
-    letter-spacing: 4px;
   }
 }
