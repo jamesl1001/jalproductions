@@ -24,6 +24,9 @@
 
                 <table>
                     <tr>
+                        <td><a href="https://github.com/jamesl1001/jalproductions-mf" target="_blank">JaL Productions</a> this site!</td>
+                    </tr>
+                    <tr>
                         <td><a href="https://github.com/jamesl1001/RTL-Sass" target="_blank">RTL-Sass</a> provides mixins and functions to easily flip your CSS styles from Left-to-Right (LTR) to Right-to-Left (RTL).</td>
                     </tr>
                     <tr>
