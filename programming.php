@@ -22,11 +22,20 @@
 
                 <h3><a href="https://github.com/jamesl1001" target="_blank">GitHub</a> - my open source projects</h3>
 
-                <ul>
-                    <li><a href="https://github.com/jamesl1001/RTL-Sass" target="_blank">RTL-Sass</a> provides mixins and functions to easily flip your CSS styles from Left-to-Right (LTR) to Right-to-Left (RTL).</li>
-                    <li><a href="https://github.com/jamesl1001/simpleslider" target="_blank">SimpleSlider</a> is a vanilla Javascript and CSS3 slider.</li>
-                    <li><a href="https://github.com/jamesl1001/Deviant-Art-CMS" target="_blank">Deviant-Art-CMS</a> provides the ability to use DeviantArt's feeds as a CMS.</li>
-                </ul>
+                <table>
+                    <tr>
+                        <td><a href="https://github.com/jamesl1001/RTL-Sass" target="_blank">RTL-Sass</a> provides mixins and functions to easily flip your CSS styles from Left-to-Right (LTR) to Right-to-Left (RTL).</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/jamesl1001/simpleslider" target="_blank">SimpleSlider</a> is a vanilla Javascript and CSS3 slider.</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/jamesl1001/Deviant-Art-CMS" target="_blank">Deviant-Art-CMS</a> provides the ability to use DeviantArt's feeds as a CMS.</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/jamesl1001/mysql-voting-system" target="_blank">mysql-voting-system</a> A PHP voting system using MySQL.</td>
+                    </tr>
+                </table>
 
                 <hr>
 

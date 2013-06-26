@@ -50,6 +50,10 @@ h3 span {
   font-weight: normal;
 }
 
+h4, h5 {
+  margin-bottom: 0;
+}
+
 p {
   color: #666;
   font-size: 14px;
