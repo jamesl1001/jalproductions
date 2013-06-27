@@ -9,11 +9,11 @@
   color: #EEE;
   text-align: center;
   line-height: 40px;
-  @include transition(color);
+  @include transition(background-color);
 }
 
 .button:hover {
-  color: $hwhite;
+  background-color: $dblue;
   text-decoration: none;
 }
 
@@ -23,7 +23,9 @@
 }
 
 .loading {
-  background: $blue url(img/spinner.gif) no-repeat center;
+  background-image: url(img/spinner.gif);
+  background-repeat: no-repeat;
+  background-position: center;
   text-indent: -9999px;
 }
 
