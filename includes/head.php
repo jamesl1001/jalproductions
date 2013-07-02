@@ -4,6 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
 <title>JaL Productions</title>
 <link rel="stylesheet" type="text/css" href="styles.css" />
+<link rel="shortcut icon" href="img/favicon.ico"/>
 <!--[if IE]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
