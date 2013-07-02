@@ -233,7 +233,7 @@
 		<client>Mohammed Rahmen, Proprietor</client>
 		<brief>
 			<![CDATA[
-				<img src="../img/PPproject.png" alt="Precise Pixels project" title="Precise Pixels project"/>
+				<img src="img/PPproject.png" alt="Precise Pixels project" title="Precise Pixels project"/>
 				<p>A basic information website, with menus and contact information.</p>
 			]]>
 		</brief>
@@ -258,7 +258,7 @@
 		<client>Tom Andrews, Chief Executive</client>
 		<brief>
 			<![CDATA[
-				<img src="../img/PPproject.png" alt="Precise Pixels project" title="Precise Pixels project"/>
+				<img src="img/PPproject.png" alt="Precise Pixels project" title="Precise Pixels project"/>
 				<p>This re-design included a cleaner layout and the ability for the client to easily update content. I am currently implementing a login system to allow the client to track who downloads what to follow up for feedback.</p>
 			]]>
 		</brief>
@@ -290,7 +290,7 @@
 		<client>Francisco Marti</client>
 		<brief>
 			<![CDATA[
-				<img src="../img/PPproject.png" alt="Precise Pixels project" title="Precise Pixels project"/>
+				<img src="img/PPproject.png" alt="Precise Pixels project" title="Precise Pixels project"/>
 				<p>"Holland Transfer Solutions is an executive taxi service based in the Rotterdam, Amsterdam and The Hague areas of Holland.</p>
 				<p>The client was not happy with their old website and we had some ideas of ways to improve it.</p>
 				<p>We are giving it a new, slick feel ensuring that the professional, executive integrity of Holland Transfer Solutions is reflected in their website."</p>
@@ -342,7 +342,7 @@
 		<client>Loong, Proprietor</client>
 		<brief>
 			<![CDATA[
-				<img src="../img/PPproject.png" alt="Precise Pixels project" title="Precise Pixels project"/>
+				<img src="img/PPproject.png" alt="Precise Pixels project" title="Precise Pixels project"/>
 				<p>"The Peking Restaurant is a traditional chinese restaurant in Gravesend.</p>
 				<p>Their old website is a virtually purposeless template website that does not do the restaurant any justice.</p>
 				<p>We are creating them a basic but professional website to showcase the restaurant with menus, prices and photos taken by us."</p>
@@ -367,7 +367,7 @@
 		<client>Precise Pixels</client>
 		<brief>
 			<![CDATA[
-				<img src="../img/PPproject.png" alt="Precise Pixels project" title="Precise Pixels project"/>
+				<img src="img/PPproject.png" alt="Precise Pixels project" title="Precise Pixels project"/>
 				<p>Precise Pixels is my web design company I co-founded with my university coursemate. He designs, I code.</p>
 			]]>
 		</brief>
