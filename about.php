@@ -16,8 +16,14 @@
 
                 <div class="col col-s">
                     <div id="me">
+                        <?php
+                            $birthDate = '03/03/1992';
+                            $birthDate = explode('/', $birthDate);
+                            $age = (date('md', date('U', mktime(0, 0, 0, $birthDate[0], $birthDate[1], $birthDate[2]))) > date('md') ? ((date('Y')-$birthDate[2])-1):(date('Y')-$birthDate[2]));
+                        ?>
+
                         <h3>Me</h3>
-                        <p>Hey! My name is <span itemprop="name">James Alexander Lee</span>, I'm 20 years old and I live in <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address"><span itemprop="region">Kent</span>, <span itemprop="country-name">UK</span></span>.</p>
+                        <p>Hey! My name is <span itemprop="name">James Alexander Lee</span>, I'm <?= $age; ?> years old and I live in <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address"><span itemprop="region">Kent</span>, <span itemprop="country-name">UK</span></span>.</p>
                         <p><span itemprop="affiliation">JaL Productions</span> is my portfolio of multimedia work.</p>
                         <p>I started JaL Productions back in 2005 after being taught Flash in school and being inspired into the realm of digital arts. From then on I have been creating a variety of multimedia content.</p>
                     </div>
