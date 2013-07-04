@@ -2,7 +2,7 @@
 	<item short="jalpro4">
 		<title>JaL Productions</title>
 		<status>v4</status>
-		<url>http://jalproductions.co.uk/mf</url>
+		<url>http://jalproductions.co.uk/</url>
 		<client>Myself</client>
 		<brief>
 			<![CDATA[
@@ -174,7 +174,7 @@
 	<item short="innuendome">
 		<title>innuen;)do.me</title>
 		<status>alpha</status>
-		<url>http://jalproductions.co.uk/projects/innuendome</url>
+		<url>http://jalproductions.co.uk/projects/innuendome/</url>
 		<client>Myself</client>
 		<brief>
 			<![CDATA[
@@ -203,7 +203,7 @@
 	<item short="jalpro3">
 		<title>JaL Productions</title>
 		<status>v3 deprecated</status>
-		<url>http://jalproductions.co.uk/v3</url>
+		<url>http://jalproductions.x10.mx/</url>
 		<client>Myself</client>
 		<brief>
 			<![CDATA[
@@ -229,7 +229,7 @@
 	<item short="delhikitchen">
 		<title>Delhi Kitchen</title>
 		<status>expired</status>
-		<url>http://jalproductions.co.uk/projects/DelhiKitchen</url>
+		<url>http://jalproductions.co.uk/projects/DelhiKitchen/</url>
 		<client>Mohammed Rahmen, Proprietor</client>
 		<brief>
 			<![CDATA[
@@ -412,7 +412,7 @@
 	<item short="jalpro2">
 		<title>JaL Productions</title>
 		<status>v2 deprecated</status>
-		<url>http://jalproductions.co.uk/projects/OldSite/</url>
+		<url>http://jalproductions.co.uk/projects/jalpro2/</url>
 		<client>Myself</client>
 		<brief>
 			<![CDATA[
@@ -460,7 +460,7 @@
 	<item short="webdesignuniversityproject">
 		<title>Web Design University Project</title>
 		<status></status>
-		<url>http://precisepixels.co.uk/jal33/</url>
+		<url>http://jalproductions.co.uk/projects/jal33/</url>
 		<client>University Project</client>
 		<brief>
 			<![CDATA[
