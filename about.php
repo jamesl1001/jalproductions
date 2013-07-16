@@ -54,10 +54,7 @@
                             <td>HTML5 &amp; CSS3</td>
                         </tr>
                         <tr>
-                            <td>JavaScript</td>
-                        </tr>
-                        <tr>
-                            <td>jQuery</td>
+                            <td>JavaScript &amp; jQuery</td>
                         </tr>
                         <tr>
                             <td>PHP</td>
@@ -72,10 +69,7 @@
                             <td>Ruby</td>
                         </tr>
                         <tr>
-                            <td>ActionScript 3.0</td>
-                        </tr>
-                        <tr>
-                            <td>ActionScript 2.0</td>
+                            <td>ActionScript 3.0 &amp; 2.0</td>
                         </tr>
                         <tr>
                             <td>Visual Basic</td>
@@ -96,19 +90,7 @@
                     <h3>Software</h3>
                     <table>
                         <tr>
-                            <td>Adobe Dreamweaver <span class="dark">since 2006</span></td>
-                        </tr>
-                        <tr>
-                            <td>Adobe Photoshop <span class="dark">since 2008</span></td>
-                        </tr>
-                        <tr>
-                            <td>Adobe Flash <span class="dark">since 2005</span></td>
-                        </tr>
-                        <tr>
-                            <td>Adobe Premiere Pro</td>
-                        </tr>
-                        <tr>
-                            <td>Adobe After Effects</td>
+                            <td>Adobe Photoshop, Dreamweaver, Flash, After Effects, Premiere Pro</td>
                         </tr>
                         <tr>
                             <td>Autodesk 3DS Max</td>
