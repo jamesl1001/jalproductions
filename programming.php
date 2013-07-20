@@ -14,7 +14,7 @@
                     <h3>Web</h3>
 
                     <p>I have expert knowledge of HTML and CSS and work with new <strong>HTML5</strong> and <strong>CSS3</strong> standards to produce W3C valid, SEO-friendly, semantically correct markup.</p>
-                    <p>I make use of JavaScript and the <strong>jQuery</strong> library to spruce up my designs, add interactivity and accomplish more complex tasks with <a href="web">my web projects</a>.</p>
+                    <p>I make use of <strong>JavaScript</strong> and the <strong>jQuery</strong> library to spruce up my designs, add interactivity and accomplish more complex tasks with <a href="web">my web projects</a>.</p>
                     <p>I use <strong>PHP</strong> primarily to talk to a <strong>MySQL</strong> database to load content dynamically into my sites. Databases are a fantastic way to easily update content without having to go into the code.</p>
                     <p>I also use quite a bit of <strong>AJAX</strong> for asynchronous requests.</p>
                     <p>From working at the BBC, I have been introduced to many new web-related things: <strong>Git</strong>, automated testing with <strong>Cucumber</strong>, <strong>Sass</strong>, <strong>Ruby</strong>, <strong>Agile methodologies</strong>, <strong>BDD</strong> - the list goes on! <a href="http://blog.jalproductions.co.uk/" target="_blank">See my blog for more info.</a></p>
