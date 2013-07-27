@@ -1,9 +1,12 @@
 /*===BUTTONS===*/
+.button_wrapper {
+  background: $blue;
+  overflow: hidden;
+}
+
 .button {
-  width: 100%;
   height: 40px;
   background: $blue;
-  margin-bottom: 10px;
   display: block;
   cursor: pointer;
   color: #EEE;
@@ -57,4 +60,32 @@
 
 .icon_after-youtube::after {
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAPdJREFUeNpifPfuHQMQ7AbiMiA+z0AhYILSLkB8BojnArE0NQyEsZOA+DYQtwAxD6UGwgAnEFcD8S0gzgRiFkoNhAFJIJ4GxBeB2JMaBsKAFhBvA+L9QGxIDQNhwAEacfOBWI4aBsLUJwDxDVwRx0Rm6oBF3D0gzkKOOCYK07EoEE+FRpwvNQyEgZ9A/JuB1DSGBTwH4hogXgDE/ygx8AsQdwBxPxB/Q5Yg1cA/0GRTD3UdBiDFwB1AXAzE1yhN2OehpZEnIcMIGfgYiJOB2ASI9xLrDRY8Ad4HxN9JjS0WtACfBc1Sz8lNRzADQaVJKTFhRAgABBgA4q8uigRylwIAAAAASUVORK5CYII=);
+}
+
+.icon_after-3d::after {
+  background: url(img/header_sprites.png) no-repeat center -240px;
+}
+
+.icon_after-artdesign::after {
+  background: url(img/header_sprites.png) no-repeat center -280px;
+}
+
+.icon_after-flash::after {
+  background: url(img/header_sprites.png) no-repeat center -320px;
+}
+
+.icon_after-music::after {
+  background: url(img/header_sprites.png) no-repeat center -360px;
+}
+
+.icon_after-photography::after {
+  background: url(img/header_sprites.png) no-repeat center -400px;
+}
+
+.icon_after-programming::after {
+  background: url(img/header_sprites.png) no-repeat center -440px;
+}
+
+.icon_after-web::after {
+  background: url(img/header_sprites.png) no-repeat center -480px;
 }
