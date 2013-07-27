@@ -653,16 +653,6 @@ header a:hover {
   letter-spacing: 2px;
 }
 
-.circle {
-  width: 90%;
-  max-width: 300px;
-  border: 5px solid white;
-  border-radius: 50%;
-  box-shadow: 0 1px 5px #999999;
-  display: block;
-  margin: 0 auto 20px;
-}
-
 @media (min-width: 480px) {
   #jalproductions {
     font-size: 42px;
@@ -675,6 +665,17 @@ header a:hover {
     line-height: 64px;
   }
 }
+/*===ABOUT===*/
+.circle {
+  width: 90%;
+  max-width: 300px;
+  border: 5px solid white;
+  border-radius: 50%;
+  box-shadow: 0 1px 5px #999999;
+  display: block;
+  margin: 0 auto 20px;
+}
+
 /*===PROGRAMMING===*/
 #good_code {
   zoom: 1;
