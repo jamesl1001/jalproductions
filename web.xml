@@ -1,4 +1,29 @@
 <xml>
+	<item short="precisepixels2">
+		<title>Precise Pixels</title>
+		<status>v2 beta</status>
+		<url>http://www.precisepixels.co.uk/beta/</url>
+		<client>Precise Pixels</client>
+		<brief>
+			<![CDATA[
+				<img src="img/PPproject.png" alt="Precise Pixels project" title="Precise Pixels project"/>
+				<p>Redesign of the Precise Pixels site.</p>
+			]]>
+		</brief>
+		<techused>
+			<![CDATA[
+				<ul>
+					<li>Mobile first</li>
+					<li>Responsive</li>
+					<li>Sass</li>
+					<li>Font icons with retina enabled fallbacks</li>
+					<!--<li>CSS 3D transform</li>-->
+				</ul>
+			]]>
+		</techused>
+		<image>http://jalproductions.co.uk/img/web/precisepixels2.jpg</image>
+	</item>
+
 	<item short="jalpro4">
 		<title>JaL Productions</title>
 		<status>v4</status>
