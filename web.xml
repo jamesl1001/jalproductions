@@ -1,8 +1,8 @@
 <xml>
 	<item short="precisepixels2">
 		<title>Precise Pixels</title>
-		<status>v2 beta</status>
-		<url>http://www.precisepixels.co.uk/beta/</url>
+		<status>v2</status>
+		<url>http://www.precisepixels.co.uk/</url>
 		<client>Precise Pixels</client>
 		<brief>
 			<![CDATA[
@@ -388,8 +388,8 @@
 
 	<item short="precisepixels">
 		<title>Precise Pixels</title>
-		<status></status>
-		<url>http://www.precisepixels.co.uk/</url>
+		<status>v1 deprecated</status>
+		<url>http://www.precisepixels.co.uk/old/</url>
 		<client>Precise Pixels</client>
 		<brief>
 			<![CDATA[
