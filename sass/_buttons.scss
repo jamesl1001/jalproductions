@@ -50,42 +50,42 @@
   background: url(img/header_sprites.png) no-repeat center -80px;
 }
 
-.icon_after-download::after {
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAANtJREFUeNrsmEEKwjAQRRPpBXIsBUE8gpdwW7feo9fovtAjeAMXg7gRN+MIsyglyLRNm4L/wycQSHn8ZIYmnpmdRUQUm7Ys9v2JEIKzauNWLgACEIAABCAAAQhAAAIQgABUlXpJ6tqi/prrnICXiYFU4vOcWzwFshafBiQ/+gyOgWzFR/F7qSIZAnkT78SPpavYAnkXb3XM0mZ+QT7Fe00wax+MQX7P2kHcrKVRdyFZq7VO8eEiYdMvdXxpv0sib31+y6WCiGKEPhMP428m+RZbo0aCAPxXwI8AAwB62zMYNAJqyQAAAABJRU5ErkJggg==);
-}
-
 .icon_after-menu::after {
   background: url(img/header_sprites.png) no-repeat center -120px;
 }
 
-.icon_after-youtube::after {
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAPdJREFUeNpifPfuHQMQ7AbiMiA+z0AhYILSLkB8BojnArE0NQyEsZOA+DYQtwAxD6UGwgAnEFcD8S0gzgRiFkoNhAFJIJ4GxBeB2JMaBsKAFhBvA+L9QGxIDQNhwAEacfOBWI4aBsLUJwDxDVwRx0Rm6oBF3D0gzkKOOCYK07EoEE+FRpwvNQyEgZ9A/JuB1DSGBTwH4hogXgDE/ygx8AsQdwBxPxB/Q5Yg1cA/0GRTD3UdBiDFwB1AXAzE1yhN2OehpZEnIcMIGfgYiJOB2ASI9xLrDRY8Ad4HxN9JjS0WtACfBc1Sz8lNRzADQaVJKTFhRAgABBgA4q8uigRylwIAAAAASUVORK5CYII=);
+.icon_after-play::after {
+  background: url(img/header_sprites.png) no-repeat center -200px;
 }
 
-.icon_after-3d::after {
+.icon_after-download::after {
   background: url(img/header_sprites.png) no-repeat center -240px;
 }
 
-.icon_after-artdesign::after {
+.icon_after-3d::after {
   background: url(img/header_sprites.png) no-repeat center -280px;
 }
 
-.icon_after-flash::after {
+.icon_after-artdesign::after {
   background: url(img/header_sprites.png) no-repeat center -320px;
 }
 
-.icon_after-music::after {
+.icon_after-flash::after {
   background: url(img/header_sprites.png) no-repeat center -360px;
 }
 
-.icon_after-photography::after {
+.icon_after-music::after {
   background: url(img/header_sprites.png) no-repeat center -400px;
 }
 
-.icon_after-programming::after {
+.icon_after-photography::after {
   background: url(img/header_sprites.png) no-repeat center -440px;
 }
 
-.icon_after-web::after {
+.icon_after-programming::after {
   background: url(img/header_sprites.png) no-repeat center -480px;
+}
+
+.icon_after-web::after {
+  background: url(img/header_sprites.png) no-repeat center -520px;
 }
