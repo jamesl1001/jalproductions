@@ -1,6 +1,5 @@
 <nav id="menu">
     <div id="menu_wrapper">
-        <h1>Menu</h1>
         <h2>Work</h2>
         <ul class="menu_section menu_section-work">
             <li class="threed seventh"><a href="3d">3D</a></li>
