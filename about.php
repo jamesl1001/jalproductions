@@ -31,13 +31,13 @@
                     <div id="university">
                         <h3>University</h3>
                         <p>I started at the University of Kent, Canterbury in 2010, studying BSc (Hons) Multimedia Technology and Design.</p>
-                        <p>I study a wide range of modules including: web design, photography, film, 2D animation, 3D modelling and programming.</p>
+                        <p>I study a wide range of modules including web design, photography, film, 2D animation, 3D modelling, visual effects, Android development and programming in several languages.</p>
                     </div>
 
                     <div id="bbc">
                         <h3>BBC</h3>
-                        <p>As part of my university course, I am currently on a year placement at BBC World Service as a Web Developer.</p>
-                        <p>Visit my <a href="http://blog.jalproductions.co.uk/" target="_blank">blog</a> to see what I'm up to.</p>
+                        <p>Between the second and third year of university, I took an industrial placement year at the BBC World Service as a Web Developer.</p>
+                        <p>During my time there I worked on an <a href="http://jalproductions.co.uk/web?site=bbcwsolympics">Olympics special</a> and the <a href="http://jalproductions.co.uk/web?site=bbcwsresponsive">Responsive project</a> to migrate the World Service language sites to responsive design.</p>
                     </div>
 
                     <!-- <div class="col col-p" id="lastfm">
