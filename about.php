@@ -120,7 +120,10 @@
                             <td>Git</td>
                         </tr>
                         <tr>
-                            <td>Cucumber</td>
+                            <td>Cucumber, QUnit, Jasmine</td>
+                        </tr>
+                        <tr>
+                            <td>Grunt</td>
                         </tr>
                     </table>
                 </div>
