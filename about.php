@@ -12,9 +12,7 @@
             <div class="centre">
                 <div class="col col-p" id="face">
                     <img src="img/james.jpg" class="circle" alt="James Alexander Lee" itemprop="photo"/>
-                </div>
 
-                <div class="col col-s">
                     <div id="me">
                         <?php
                             $birthDate = '03/03/1992';
@@ -27,6 +25,9 @@
                         <p><span itemprop="affiliation">JaL Productions</span> is my portfolio of multimedia work.</p>
                         <p>I started JaL Productions back in 2005 after being taught Flash in school and being inspired into the realm of digital arts. From then on I have been creating a variety of multimedia content.</p>
                     </div>
+                </div>
+
+                <div class="col col-s">
 
                     <div id="university">
                         <h3>University</h3>
@@ -40,9 +41,31 @@
                         <p>During my time there I worked on an <a href="http://jalproductions.co.uk/web?site=bbcwsolympics">Olympics special</a> and the <a href="http://jalproductions.co.uk/web?site=bbcwsresponsive">Responsive project</a> to migrate the World Service language sites to responsive design.</p>
                     </div>
 
-                    <!-- <div class="col col-p" id="lastfm">
+                    <div id="lastfm">
                         <h3>What I'm Listening To</h3>
-                    </div> -->
+                        <?php
+                            $url    = 'http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=jamesl1001&api_key=547536d9928038ef6de3642606f6557a';
+                            $feed   = simplexml_load_file($url);
+                            $track  = $feed->recenttracks->track[0];
+                            $artist = $track->artist;
+                            $name   = $track->name;
+                            $album  = $track->album;
+                            $image  = $track->image[1];
+                        ?>
+
+                        <a href="http://www.last.fm/user/JamesL1001" target="_blank">
+                            <div class="track">
+                                <img src="<?= $image; ?>" class="track-image"/>
+                                <p>
+                                    <span class="track-artist"><?= $artist; ?></span>
+                                    &mdash;
+                                    <span class="track-album"><?= $album; ?></span>
+                                    &mdash;
+                                    <span class="track-name"><strong><?= $name; ?></strong></span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
 
                 <hr>

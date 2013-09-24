@@ -691,6 +691,15 @@ header a:hover {
   margin: 0 auto 20px;
 }
 
+.track {
+  overflow: hidden;
+}
+
+.track-image {
+  float: left;
+  margin-right: 10px;
+}
+
 /*===PROGRAMMING===*/
 #good_code {
   zoom: 1;
