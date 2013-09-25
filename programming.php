@@ -26,21 +26,20 @@
                     <h3><a href="https://github.com/jamesl1001" target="_blank">GitHub</a> - my open source projects</h3>
 
                     <table>
+                    <?php
+                        $url  = 'https://api.github.com/users/jamesl1001/repos';
+                        $repo = json_decode(file_get_contents($url));
+
+                        for($i = 0; $i < count($repo); $i++):
+                            if($repo[$i]->fork == true) { continue; }
+                            $name = $repo[$i]->name;
+                            $url  = $repo[$i]->html_url;
+                            $desc = $repo[$i]->description;
+                    ?>
                         <tr>
-                            <td><a href="https://github.com/jamesl1001/jalproductions-mf" target="_blank">JaL Productions</a> this site!</td>
+                            <td><a href="<?= $url; ?>" target="_blank"><?= $name; ?></a> &mdash; <?= $desc; ?></td>
                         </tr>
-                        <tr>
-                            <td><a href="https://github.com/jamesl1001/RTL-Sass" target="_blank">RTL-Sass</a> provides mixins and functions to easily flip your CSS styles from Left-to-Right (LTR) to Right-to-Left (RTL).</td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://github.com/jamesl1001/simpleslider" target="_blank">SimpleSlider</a> is a vanilla Javascript and CSS3 slider.</td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://github.com/jamesl1001/Deviant-Art-CMS" target="_blank">Deviant-Art-CMS</a> provides the ability to use DeviantArt's feeds as a CMS.</td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://github.com/jamesl1001/mysql-voting-system" target="_blank">mysql-voting-system</a> A PHP voting system using MySQL.</td>
-                        </tr>
+                    <?php endfor; ?>
                     </table>
                 </div>
 
