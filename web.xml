@@ -174,11 +174,11 @@
 				<p>Achieving <strong>1.6 million page impressions</strong> on story pages alone, the Olympics Live Action Feeds module was the most popular of all the Olympics related projects built by the BBC World Service team during this year's games.</p>
 				<p>The module comprised of five main components:</p>
 				<ul>
-					<li><strong>Coming up</strong> - Displays the time until the next five events, highlighting any which are under 15 minutes.</li>
-					<li><strong>Latest gold medalists</strong> - A progress bar shows the total number of gold medals won; and on hovering over the white circle, a popup box displays the name, country and event of the latest gold medalist.</li>
-					<li><strong>Medal table</strong> - Displays the medals won by the top five countries.</li>
-					<li><strong>In detail</strong> - A personalised medal table showing a select list of countries selected by that language service.</li>
-					<li><a href="http://www.bbc.co.uk/sinhala/sport/2012/07/120718_olympics_2012_medals_table.shtml" target="_blank"><strong>Full medal table</strong></a> - A medal table containing all the countries whom have won medals</li>
+					<li><strong>Coming up</strong> &mdash; Displays the time until the next five events, highlighting any which are under 15 minutes.</li>
+					<li><strong>Latest gold medalists</strong> &mdash; A progress bar shows the total number of gold medals won; and on hovering over the white circle, a popup box displays the name, country and event of the latest gold medalist.</li>
+					<li><strong>Medal table</strong> &mdash; Displays the medals won by the top five countries.</li>
+					<li><strong>In detail</strong> &mdash; A personalised medal table showing a select list of countries selected by that language service.</li>
+					<li><a href="http://www.bbc.co.uk/sinhala/sport/2012/07/120718_olympics_2012_medals_table.shtml" target="_blank"><strong>Full medal table</strong></a> &mdash; A medal table containing all the countries whom have won medals</li>
 				</ul>
 				<p>This was my first project working for the BBC.</p>
 			]]>
@@ -459,7 +459,7 @@
 	</item>
 
 	<item short="actionongilbertssyndrome">
-		<title>Action on Gilbert's Syndrome - Interaction Design University Project</title>
+		<title>Action on Gilbert's Syndrome — Interaction Design University Project</title>
 		<status></status>
 		<url>http://ags.net76.net/</url>
 		<client>University Project</client>

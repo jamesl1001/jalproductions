@@ -23,7 +23,7 @@
                 <hr class="col-divider">
 
                 <div class="col col-s">
-                    <h3><a href="https://github.com/jamesl1001" target="_blank">GitHub</a> - my open source projects</h3>
+                    <h3><a href="https://github.com/jamesl1001" target="_blank">GitHub</a> &mdash; my open source projects</h3>
 
                     <table>
                     <?php
