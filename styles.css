@@ -206,18 +206,15 @@ header h1 a {
 }
 
 header a {
-  -webkit-transition: opacity 0.3s;
-  -moz-transition: opacity 0.3s;
-  -ms-transition: opacity 0.3s;
-  -o-transition: opacity 0.3s;
-  transition: opacity 0.3s;
+  -webkit-transition: background-color 0.3s;
+  -moz-transition: background-color 0.3s;
+  -ms-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  transition: background-color 0.3s;
 }
 
 header a:hover {
-  zoom: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
-  filter: alpha(opacity=70);
-  opacity: 0.7;
+  background-color: #528fcc;
   text-decoration: none;
 }
 
@@ -320,6 +317,10 @@ header a:hover {
   border-left: 1px solid #79a3cc;
   box-shadow: -1px 0 0 #528fcc;
   float: right;
+}
+
+#menu_btn:hover {
+  background-color: #528fcc;
 }
 
 @media (min-width: 480px) {

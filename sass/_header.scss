@@ -30,11 +30,11 @@ header h1 a {
 }
 
 header a {
-  @include transition(opacity);
+  @include transition(background-color);
 }
 
 header a:hover {
-  @include hover-fade;
+  background-color: $dblue;
   text-decoration: none;
 }
 
@@ -152,6 +152,10 @@ header a:hover {
   border-left: 1px solid $lblue;
   box-shadow: -1px 0 0 $dblue;
   float: right;
+}
+
+#menu_btn:hover {
+  background-color: $dblue;
 }
 
 @media (min-width: 480px) {
