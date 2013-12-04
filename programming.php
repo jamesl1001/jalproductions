@@ -28,7 +28,12 @@
                     <table>
                     <?php
                         $url  = 'https://api.github.com/users/jamesl1001/repos';
-                        $repo = json_decode(file_get_contents($url));
+                        $curl = curl_init();
+                        curl_setopt_array($curl, array(
+                            CURLOPT_RETURNTRANSFER => 1,
+                            CURLOPT_URL => $url,
+                            CURLOPT_USERAGENT => 'JaL-User-Agent'));
+                        $repo = json_decode(curl_exec($curl));
 
                         for($i = 0; $i < count($repo); $i++):
                             if($repo[$i]->fork == true) { continue; }
