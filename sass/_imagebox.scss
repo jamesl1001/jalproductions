@@ -8,29 +8,17 @@
 
 .imagebox {
   width: 50%;
-  *width: 49.9%;    //IE7
-  padding-bottom: 50%;
-  background: #000;
+  *width: 49.9%; //IE7
   float: left;
-  position: relative;
-  overflow: hidden;
 
   img {
-    position: absolute;
-    @include transition(margin);
+    width: 100%;
+    display: block;
 
     &:hover {
       // HOVER ANIMATION HERE
     }
   }
-}
-
-.portrait {
-  width: 100%;
-}
-
-.landscape {
-  height: 100%;
 }
 
 .imagebox_open img {
@@ -41,20 +29,17 @@
 @media (min-width: 480px) {
   .imagebox {
       width: 25%;
-      padding-bottom: 25%;
   }
 }
 
 @media (min-width: 720px) {
   .imagebox {
       width: 25%;
-      padding-bottom: 25%;
   }
 }
 
 @media (min-width: 1024px) {
   .imagebox {
       width: 12.5%;
-      padding-bottom: 12.5%;
   }
 }
