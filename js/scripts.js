@@ -55,21 +55,21 @@ $("#menu").swipe({
 });
 
 /* Display the clicked image, hide the rest */
-/*$('.image img').click(function(e) {
+/*$('.imagebox img').click(function(e) {
     e.preventDefault();
     var imageSrc = $(this).parent()[0].href;
-    $('.imagebox_wrapper .image').hide();
+    $('.imagebox_wrapper .imagebox').hide();
     $('.imagebox_wrapper').append('<div class="imagebox_open"><img src="' + imageSrc + '"/><p>Click to close</p></div>');
 
     $('.imagebox_open').click(function() {
         $(this).remove();
-        $('.imagebox_wrapper .image').show();
+        $('.imagebox_wrapper .imagebox').show();
         alignThumbnails();
     });
 });*/
 
 /* Scale the imagebox to full width, still floated */
-$('.image img').live('click', function(e) {
+$('.imagebox img').live('click', function(e) {
     e.preventDefault();
     if($(this).hasClass('view')) {
         $(this).removeClass('view');

@@ -15,7 +15,7 @@ function getDeviations($url, $limit = null, $start = 0, $loadmore = false) {
         $image = (String)$item->children('media', true)->content->attributes()->url;
         $thumb = getThumbnail($image);
 
-        $html .= "<a href=\"$image\" class=\"imagebox image\"><img src=\"$thumb\" alt=\"$title\" title=\"$title\"/></a>";
+        $html .= "<a href=\"$image\" class=\"imagebox\"><img src=\"$thumb\" alt=\"$title\" title=\"$title\"/></a>";
         $i++;
     }
 
