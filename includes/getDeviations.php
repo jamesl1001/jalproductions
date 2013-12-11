@@ -1,5 +1,5 @@
 <?php
-include 'getOrientation.php';
+include 'getThumbnail.php';
 
 function getDeviations($url, $limit = null, $start = 0, $loadmore = false) {
     $feed      = simplexml_load_file($url);
@@ -11,16 +11,13 @@ function getDeviations($url, $limit = null, $start = 0, $loadmore = false) {
         if($i < $start) { $i++; continue; }
         if(isset($limit) && $i == $start + $limit) break;
 
-        $title       = $item->title;
-        $url         = $item->link;
-        $date        = $item->pubDate;
-        $thumb       = $item->children('media', true)->thumbnail->{1}->attributes()->url;
-        $image       = $item->children('media', true)->content->attributes()->url;
-        $orientation = getOrientation($image);
-        $onload      = $loadmore ? "onload=\"imgloaded();\"" : "";
+        $title = (String)$item->title;
+        $image = (String)$item->children('media', true)->content->attributes()->url;
+        $thumb = getThumbnail($image);
 
-        $html .= "<div class=\"imagebox image\"><a href=\"$image\"><img src=\"$thumb\" class=\"$orientation\" alt=\"$title\" title=\"$title\" $onload/></a></div>";
+        $html .= "<a href=\"$image\" class=\"imagebox image\"><img src=\"$thumb\" alt=\"$title\" title=\"$title\"/></a>";
         $i++;
     }
+
     return $html;
 }
