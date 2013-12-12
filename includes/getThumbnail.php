@@ -14,5 +14,5 @@ function getThumbnail($url, $loadmore = false) {
         $img->writeImage($up . "img/thumb/$file.jpg");
     }
 
-    return $up . "img/thumb/$file.jpg";
+    return "img/thumb/$file.jpg";
 }
