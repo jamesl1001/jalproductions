@@ -1,0 +1,45 @@
+/*===IMAGEVIEWER===*/
+.iv {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 4;
+  display: none;
+}
+
+.iv-show {
+  display: block;
+}
+
+.iv-image-wrapper {
+  width: 100%;
+  height: 100%;
+  background: url(img/spinner.gif) no-repeat center;
+  position: absolute;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.iv-image-wrapper img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: default;
+}
+
+.iv-overlay {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: .9;
+  filter: alpha(opacity=90);
+}

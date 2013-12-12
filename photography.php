@@ -21,6 +21,8 @@
             </div>
             
             <div class="button" id="load_more" data-page="photography">load more <noscript>(requires Javascript)</noscript></div>
+
+            <?php include('includes/imageviewer.php'); ?>
         </div>
 
         <?php include("includes/menu.php"); ?>

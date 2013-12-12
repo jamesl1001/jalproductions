@@ -1,15 +1,12 @@
 /*===EVENT HANDLERS===*/
-
 $(document).ready(function() {
     $('body').addClass('js');
     $menu = $('#menu');
     $view = $('#viewport');
     device = '';
-    imgsloaded = 0;
 });
 
 $(window).load(function() {
-    alignThumbnails();
     getDeviceType();
     enhanceYoutube();
 });
@@ -20,7 +17,6 @@ function debounce() {
     if($('body').hasClass('menu-open')) {
         resizeMenu();
     };
-    alignThumbnails();
 };
 
 $('#menu_btn, #open_menu').click(function(e) {
@@ -48,7 +44,6 @@ function resizeMenu() {
 function closeMenu() {
     $menu.animate({'left':'100%'}, 300, function() {
         $view.height('');
-        alignThumbnails();
     });
 };
 
@@ -59,37 +54,28 @@ $("#menu").swipe({
     }
 });
 
-/* Display the clicked image, hide the rest */
-/*$('.image img').click(function(e) {
+/*===IMAGEVIEWER===*/
+$('.imagebox img').live('click', function(e) {
     e.preventDefault();
-    var imageSrc = $(this).parent()[0].href;
-    $('.imagebox_wrapper .image').hide();
-    $('.imagebox_wrapper').append('<div class="imagebox_open"><img src="' + imageSrc + '"/><p>Click to close</p></div>');
+    $('.iv').addClass('iv-show');
+    $('.iv-image-wrapper img').attr('src', $(this).parent()[0].href);
+});
 
-    $('.imagebox_open').click(function() {
-        $(this).remove();
-        $('.imagebox_wrapper .image').show();
-        alignThumbnails();
-    });
-});*/
-
-/* Scale the imagebox to full width, still floated */
-$('.image img').live('click', function(e) {
-    e.preventDefault();
-    if($(this).hasClass('view')) {
-        $(this).removeClass('view');
-        $(this).parent().parent().css({'width':'', 'padding-bottom':''});
-        alignThumbnails();
-    } else {
-        $(this).addClass('view');
-        var imageSrc = $(this).parent()[0].href;
-        var imageW   = $(this).width();
-        var imageH   = $(this).height();
-        var ratio    = imageH / imageW;
-        $(this).attr('src', imageSrc).css({'margin':''});
-        $(this).parent().parent().css({'width':'100%', 'padding-bottom':100*ratio+'%'});
+$('.iv-image-wrapper').click(function(e) {
+    if(e.target.tagName != 'IMG') {
+        closeIV();
     }
 });
+
+$(document).keyup(function(e) {
+    if (e.keyCode == 27) {
+        closeIV();
+    }
+});
+
+function closeIV() {
+    $('.iv').removeClass('iv-show');
+}
 
 $('#load_more').click(function(e) {
     nBefore = $('.imagebox').size();
@@ -126,31 +112,7 @@ function append(page) {
     }
 };
 
-function imgloaded() {
-    imgsloaded++;
-    var n = $('.imagebox').size() - nBefore;
-    // *2 because: http://stackoverflow.com/questions/10816053/jquery-img-added-through-append-triggers-onload-twice
-    if(imgsloaded == n*2) {
-        alignThumbnails();
-        imgsloaded = 0;
-    }
-}
-
 /*===FUNCTIONS===*/
-function alignThumbnails() {
-    $('.imagebox').each(function() {
-        var container = $(this).width();
-        $image        = $('img', this);
-        var imageW    = $image.width();
-        var imageH    = $image.height();
-        if($image.hasClass('portrait')) {
-            $image.css({'margin-top': (container - imageH)/2});
-        } else {
-            $image.css({'margin-left': (container - imageW)/2});
-        }
-    });
-};
-
 function getDeviceType() {
     var w = $(window).width();
     if(w < 480) {
@@ -169,7 +131,3 @@ function enhanceYoutube() {
         $yt.replaceWith('<div class="youtube_wrapper"><iframe class="youtube_embed" src="' + embed + '" frameborder="0" allowfullscreen></iframe></div>');
     }
 }
-
-/*function getWindowWidth() {
-    return $(window).width();
-};*/
