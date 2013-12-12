@@ -29,6 +29,8 @@
                 
                 <div class="button" id="load_more" data-page="threed">load more <noscript>(requires Javascript)</noscript></div>
             </div>
+
+            <?php include('includes/imageviewer.php'); ?>
         </div>
 
         <?php include("includes/menu.php"); ?>

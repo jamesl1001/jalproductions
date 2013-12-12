@@ -22,14 +22,15 @@
                 <div class="imagebox_wrapper">
                     <?php
                         include 'includes/getDeviations.php';
-                        $limit = ($_SESSION['loaded'] > 1) ? $_SESSION['loaded'] : 16;
-                        $html = getDeviations('http://backend.deviantart.com/rss.xml?q=gallery:fu51on/27123352', $limit);
+                        $html = getDeviations('http://backend.deviantart.com/rss.xml?q=gallery:fu51on/27123352', 16);
                         echo $html;
                     ?>
                 </div>
             
                 <!-- <div class="button" id="load_more" data-page="artdesign">load more <noscript>(requires Javascript)</noscript></div> -->
             </div>
+
+            <?php include('includes/imageviewer.php'); ?>
         </div>
 
         <?php include("includes/menu.php"); ?>
