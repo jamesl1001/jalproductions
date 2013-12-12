@@ -1,7 +1,8 @@
 <?php
-function getThumbnail($url) {
+function getThumbnail($url, $loadmore = false) {
+    $up     = ($loadmore) ? '../' : '';
     $file   = substr(substr(strrchr($url, '/'), 1), 0, -4);
-    $exists = file_exists("img/thumb/$file.jpg");
+    $exists = file_exists($up . "img/thumb/$file.jpg");
 
     if(!$exists) {
         $img = new Imagick($url);
@@ -10,8 +11,8 @@ function getThumbnail($url) {
         $img->setImageCompressionQuality(30);
         $img->setImageFormat('jpg');
         $img->stripImage();
-        $img->writeImage("img/thumb/$file.jpg");
+        $img->writeImage($up . "img/thumb/$file.jpg");
     }
 
-    return "img/thumb/$file.jpg";
+    return $up . "img/thumb/$file.jpg";
 }
