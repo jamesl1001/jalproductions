@@ -1,10 +1,10 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <?php include("includes/head.php"); ?>
+    <?php include('includes/head.php'); ?>
 </head>
-<body class="<?php include("includes/bodyclass.php"); ?>">
-    <?php include("includes/header.php"); ?>
+<body class="<?php include('includes/bodyclass.php'); ?>">
+    <?php include('includes/header.php'); ?>
 
     <div id="viewport">
         <div id="page">
@@ -25,9 +25,9 @@
             <?php include('includes/imageviewer.php'); ?>
         </div>
 
-        <?php include("includes/menu.php"); ?>
+        <?php include('includes/menu.php'); ?>
     </div>
 
-    <?php include("includes/scripts.php"); ?>
+    <?php include('includes/scripts.php'); ?>
 </body>
 </html>

@@ -1,10 +1,10 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <?php include("includes/head.php"); ?>
+    <?php include('includes/head.php'); ?>
 </head>
-<body class="<?php include("includes/bodyclass.php"); ?>">
-    <?php include("includes/header.php"); ?>
+<body class="<?php include('includes/bodyclass.php'); ?>">
+    <?php include('includes/header.php'); ?>
 
     <div id="viewport">
         <div id="page">
@@ -21,8 +21,6 @@
                 <h3>Stills</h3>
                 <div class="imagebox_wrapper">
                     <?php
-                        include 'includes/getOrientation.php';
-
                         $feed      = simplexml_load_file('http://rss.ngfiles.com/users/2389000/fu5ion/flash/');
                         $channel   = $feed->channel;
                         $i         = 0;
@@ -46,9 +44,8 @@
                             $url    = $item->link;
                             $date   = $item->pubDate;
                             $desc   = $item->description;
-                            $orientation = getOrientation($map[$i]);
                         ?>
-                           <div class="imagebox"><a href="<?= $url; ?>" target="_blank"><img src="<?= $map[$i]; ?>" class="<?= $orientation; ?>" alt="<?= $title2; ?>" title="<?= $title2; ?>"/></a></div>
+                           <div class="imagebox"><a href="<?= $url; ?>" target="_blank"><img src="<?= $map[$i]; ?>" alt="<?= $title2; ?>" title="<?= $title2; ?>"/></a></div>
                         <?php
                             $i++;
                             endforeach;
@@ -57,9 +54,9 @@
             </div>
         </div>
 
-        <?php include("includes/menu.php"); ?>
+        <?php include('includes/menu.php'); ?>
     </div>
 
-    <?php include("includes/scripts.php"); ?>
+    <?php include('includes/scripts.php'); ?>
 </body>
 </html>
