@@ -106,6 +106,9 @@
                         <tr>
                             <td>Java</td>
                         </tr>
+                        <tr>
+                            <td>Android</td>
+                        </tr>
                     </table>
                 </div>
 
@@ -147,6 +150,9 @@
                         </tr>
                         <tr>
                             <td>Grunt</td>
+                        </tr>
+                        <tr>
+                            <td>Eclipse</td>
                         </tr>
                     </table>
                 </div>
