@@ -3,13 +3,13 @@ include 'getDeviations.php';
 $start = $_GET['start'];
 $page  = $_GET['page'];
 switch($page) {
-	case threed:
+	case 'threed':
 		$album = 27123361;
 		break;
-	case artdesign:
+	case 'artdesign':
 		$album = 27123352;
 		break;
-	case photography:
+	case 'photography':
 		$album = 27123391;
 		break;
 }
