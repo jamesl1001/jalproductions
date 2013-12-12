@@ -74,7 +74,7 @@
                     <p>I learnt to write small programs making use of the SendKeys command to automate keypresses and build macros.</p>
                     <p>Learning <strong>C++</strong> was part of my first year at university. I learnt from the basics of basic arithmetic up to our final project which was to produce a cypher program.</p>
                     <p><strong>Java</strong> was also part of my first year at university. I created basic applications which drew out shapes and allowed user interaction, followed by applets running in an internet browser.</p>
-                    <p>Software Development in my second year taught me basic OOP principles and how to write basic <strong>C#</strong> Windows applications.</p>
+                    <p>Software Development in my second year taught me basic OOP principles and how to write simple <strong>C#</strong> Windows applications.</p>
                 </div>
 
                 <hr class="col-divider">
