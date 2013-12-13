@@ -62,9 +62,7 @@ $('.imagebox img').live('click', function(e) {
 });
 
 $('.iv-image-wrapper').click(function(e) {
-    if(e.target.tagName != 'IMG') {
-        closeIV();
-    }
+    closeIV();
 });
 
 $(document).keyup(function(e) {
