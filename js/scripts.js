@@ -82,7 +82,7 @@ $('#load_more').click(function(e) {
 
 /*===APPEND===*/
 var appending = false;
-var start     = 16;
+var start     = $('.imagebox').size();
 
 function append(page) {
     if(appending == false) {
