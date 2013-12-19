@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -22,9 +23,8 @@
                 <div class="imagebox_wrapper">
                     <?php
                         include 'includes/getDeviations.php';
-                        session_start();
-                        $_SESSION['loaded'] = (isset($_SESSION['loaded'])) ? $_SESSION['loaded'] : 16;
-                        $html = getDeviations('http://backend.deviantart.com/rss.xml?q=gallery:fu51on/27123361', $_SESSION['loaded']);
+                        $_SESSION['loaded-threed'] = (isset($_SESSION['loaded-threed'])) ? $_SESSION['loaded-threed'] : 16;
+                        $html = getDeviations('http://backend.deviantart.com/rss.xml?q=gallery:fu51on/27123361', $_SESSION['loaded-threed']);
                         echo $html;
                     ?>
                 </div>
