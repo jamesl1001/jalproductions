@@ -47,9 +47,9 @@
                             $url    = 'http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=jamesl1001&api_key=547536d9928038ef6de3642606f6557a';
                             $feed   = simplexml_load_file($url);
                             $track  = $feed->recenttracks->track[0];
-                            $artist = $track->artist;
-                            $name   = $track->name;
-                            $album  = $track->album;
+                            $artist = (string)$track->artist;
+                            $name   = (string)$track->name;
+                            $album  = (string)$track->album;
                             $image  = $track->image[1];
                         ?>
 
@@ -57,11 +57,11 @@
                             <div class="track">
                                 <img src="<?= $image; ?>" class="track-image"/>
                                 <p>
-                                    <span class="track-artist"><?= $artist; ?></span>
-                                    &mdash;
-                                    <span class="track-album"><?= $album; ?></span>
-                                    &mdash;
-                                    <span class="track-name"><strong><?= $name; ?></strong></span>
+                                    <?php
+                                    if(!empty($artist)) { echo "<span class=\"track-artist\">$artist</span> &mdash; "; }
+                                    if(!empty($album))  { echo "<span class=\"track-album\">$album</span> &mdash; "; }
+                                    if(!empty($name))   { echo "<span class=\"track-name\"><strong>$name</strong></span>"; }
+                                    ?>
                                 </p>
                             </div>
                         </a>
