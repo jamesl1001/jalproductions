@@ -11,7 +11,12 @@
 
 <title>JaL Productions</title>
 <link rel="stylesheet" type="text/css" href="styles.css" />
+
 <link rel="shortcut icon" href="img/favicon.ico"/>
+<link rel="apple-touch-icon-precomposed" href="img/touchicon-57.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/touchicon-72.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/touchicon-114.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/touchicon-144.png">
 
 <!--[if IE]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
