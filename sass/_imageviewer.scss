@@ -16,9 +16,14 @@
 .iv-nav {
   width: 25%;
   height: 100%;
+  background: rgba(255,255,255,0);
   position: absolute;
   cursor: pointer;
   z-index: 6;
+}
+
+.iv-nav:hover {
+  background: rgba(255,255,255,.1);
 }
 
 .iv-left {
