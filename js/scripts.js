@@ -55,26 +55,123 @@ $("#menu").swipe({
 });
 
 /*===IMAGEVIEWER===*/
-$('.imagebox img').live('click', function(e) {
-    e.preventDefault();
-    $('.iv').addClass('iv-show');
-    $('.iv-image-wrapper img').attr('src', $(this).parent()[0].href);
+var $iv      = $('.iv');
+var $ivImg   = $('.iv-image-wrapper img');
+var $ivLeft  = $('.iv-left');
+var $ivRight = $('.iv-right');
+
+var ivOpen = false;
+
+var openImageRef;
+var prevImageRef;
+var nextImageRef;
+var firstImageRef;
+var lastImageRef;
+
+// EVENT HANDLERS
+$('.imagebox').live('click', function(e) {
+    openIV(e, $(this));
 });
 
-$('.iv-image-wrapper').click(function(e) {
+$ivLeft.click(function() {
+    goLeft();
+});
+
+$ivRight.click(function() {
+    goRight();
+});
+
+$('.iv-image-wrapper').click(function() {
     closeIV();
 });
 
-$(document).keyup(function(e) {
-    if (e.keyCode == 27) {
-        closeIV();
-    }
-});
-
-function closeIV() {
-    $('.iv').removeClass('iv-show');
+// FUNCTIONS
+function getFirstLast() {
+    firstImageRef = $('.imagebox:first-child');
+    lastImageRef  = $('.imagebox:last-child');
 }
 
+function openIV(e, $this) {
+    e.preventDefault();
+    ivOpen = true;
+    $iv.addClass('iv-show');
+    $ivImg.attr('src', $this[0].href);
+    openImageRef = $this;
+    prevImageRef = openImageRef.prev();
+    nextImageRef = openImageRef.next();
+    getFirstLast();
+    firstOrLast();
+    $(document).on('keyup', handleKeys);
+}
+
+function goLeft() {
+    clearImage();
+    $ivImg.attr('src', prevImageRef[0].href);
+    prevImageRef = openImageRef.prev().prev();
+    nextImageRef = openImageRef;
+    openImageRef = openImageRef.prev();
+    firstOrLast();
+}
+
+function goRight() {
+    clearImage();
+    $ivImg.attr('src', nextImageRef[0].href);
+    prevImageRef = openImageRef;
+    nextImageRef = openImageRef.next().next();
+    openImageRef = openImageRef.next();
+    firstOrLast();
+}
+
+function clearImage() {
+    $ivImg.attr('src', '');
+}
+
+function firstOrLast() {
+    if(openImageRef[0] == firstImageRef[0]) {
+        $ivLeft.hide();
+        return 'first';
+    } else if(openImageRef[0] == lastImageRef[0]) {
+        $ivRight.hide();
+        return 'last';
+    } else {
+        resetNav();
+        return null;
+    }
+}
+
+function resetNav() {
+    $ivLeft.show();
+    $ivRight.show();
+}
+
+function handleKeys(e) {
+    if(ivOpen) {
+        switch(e.keyCode) {
+        case 27:
+            closeIV();
+            break;
+        case 37:
+            if(firstOrLast() != 'first') {
+                goLeft();
+            }
+            break;
+        case 39:
+            if(firstOrLast() != 'last') {
+                goRight();
+            }
+            break;
+        }
+    }
+}
+
+function closeIV() {
+    ivOpen = false;
+    $iv.removeClass('iv-show');
+    resetNav();
+    $(document).off('keyup', handleKeys);
+}
+
+/*===LOAD MORE===*/
 $('#load_more').click(function(e) {
     nBefore = $('.imagebox').size();
     append($(this).data('page'));
