@@ -19,7 +19,7 @@
 
             <div class="col col-s">
                 <h3>Stills</h3>
-                <div class="imagebox_wrapper">
+                <div class="imagebox_wrapper no-iv">
                     <?php
                         $feed      = simplexml_load_file('http://rss.ngfiles.com/users/2389000/fu5ion/flash/');
                         $channel   = $feed->channel;

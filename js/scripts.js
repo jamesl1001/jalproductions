@@ -56,9 +56,11 @@ $("#menu").swipe({
 
 /*===IMAGEVIEWER===*/
 $('.imagebox img').live('click', function(e) {
-    e.preventDefault();
-    $('.iv').addClass('iv-show');
-    $('.iv-image-wrapper img').attr('src', $(this).parent()[0].href);
+    if(!$('.imagebox_wrapper').hasClass('no-iv')) {
+        e.preventDefault();
+        $('.iv').addClass('iv-show');
+        $('.iv-image-wrapper img').attr('src', $(this).parent()[0].href);
+    }
 });
 
 $('.iv-image-wrapper').click(function(e) {
