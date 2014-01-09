@@ -26,6 +26,18 @@
   background: rgba(255,255,255,.1);
 }
 
+.touch .iv-nav {
+  display: none;
+}
+
+.first .iv-left {
+  display: none;
+}
+
+.last .iv-right {
+  display: none;
+}
+
 .iv-left {
   left: 0;
 }

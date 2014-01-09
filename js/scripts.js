@@ -1,6 +1,9 @@
 /*===EVENT HANDLERS===*/
 $(document).ready(function() {
     $('body').addClass('js');
+    if(isTouch()) {
+        $('body').addClass('touch');
+    }
     $menu = $('#menu');
     $view = $('#viewport');
     device = '';
@@ -55,18 +58,23 @@ $("#menu").swipe({
 });
 
 /*===IMAGEVIEWER===*/
-var $iv      = $('.iv');
-var $ivImg   = $('.iv-image-wrapper img');
-var $ivLeft  = $('.iv-left');
-var $ivRight = $('.iv-right');
+var $iv      = $('.iv'),
+    $ivImg   = $('.iv-image-wrapper img'),
+    $ivLeft  = $('.iv-left'),
+    $ivRight = $('.iv-right'),
 
-var ivOpen = false;
+    ivOpen = false,
 
-var openImageRef;
-var prevImageRef;
-var nextImageRef;
-var firstImageRef;
-var lastImageRef;
+    openImageRef,
+    prevImageRef,
+    nextImageRef,
+    firstImageRef,
+    lastImageRef,
+
+    startX,
+    startTime,
+    elapsedTime,
+    distX;
 
 // EVENT HANDLERS
 $('.imagebox').live('click', function(e) {
@@ -83,6 +91,18 @@ $ivRight.click(function() {
 
 $('.iv-image-wrapper').click(function() {
     closeIV();
+});
+
+$ivImg.on('touchstart', function(e) {
+    touchStartIV(e);
+});
+
+$ivImg.on('touchmove', function(e) {
+    touchMoveIV(e);
+});
+
+$ivImg.on('touchend', function(e) {
+    touchEndIV(e);
 });
 
 // FUNCTIONS
@@ -128,10 +148,10 @@ function clearImage() {
 
 function firstOrLast() {
     if(openImageRef[0] == firstImageRef[0]) {
-        $ivLeft.hide();
+        $iv.addClass('first');
         return 'first';
     } else if(openImageRef[0] == lastImageRef[0]) {
-        $ivRight.hide();
+        $iv.addClass('last');
         return 'last';
     } else {
         resetNav();
@@ -140,8 +160,7 @@ function firstOrLast() {
 }
 
 function resetNav() {
-    $ivLeft.show();
-    $ivRight.show();
+    $iv.removeClass('first last');
 }
 
 function handleKeys(e) {
@@ -169,6 +188,43 @@ function closeIV() {
     $iv.removeClass('iv-show');
     resetNav();
     $(document).off('keyup', handleKeys);
+}
+
+function touchStartIV(e) {
+    var touchObj = e.originalEvent.changedTouches[0];
+    distX = 0;
+    startX = touchObj.pageX;
+    startTime = e.timeStamp;
+    e.preventDefault();
+}
+
+function touchMoveIV(e) {
+    var touchObj = e.originalEvent.changedTouches[0];
+    distX = touchObj.pageX - startX;
+    $ivImg.css({'left':distX});
+    e.preventDefault();
+}
+
+function touchEndIV(e) {
+    var touchObj = e.originalEvent.changedTouches[0];
+    elapsedTime = e.timeStamp - startTime;
+    $ivImg.css({'left':0});
+    thresholdCheck();
+    e.preventDefault();
+}
+
+function thresholdCheck() {
+    if(distX > w/4) {
+        if(firstOrLast() != 'first') {
+            goLeft();
+        }
+    } else if(distX < -w/4) {
+        if(firstOrLast() != 'last') {
+            goRight();
+        }
+    } else if(distX == 0) {
+        closeIV();
+    }
 }
 
 /*===LOAD MORE===*/
@@ -208,8 +264,10 @@ function append(page) {
 };
 
 /*===FUNCTIONS===*/
+var w;
+
 function getDeviceType() {
-    var w = $(window).width();
+    w = $(window).width();
     if(w < 480) {
         device = 'mobile';
     } else if(w >= 480 && w < 720) {
@@ -218,6 +276,14 @@ function getDeviceType() {
         device = 'desktop';
     }
 };
+
+function isTouch() {
+    if(('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch) {
+        return true;
+    } else {
+        return false;
+    }
+}
 
 function enhanceYoutube() {
     if(device == 'desktop') {
