@@ -25,7 +25,7 @@
 
                 <div class="feature">
                     <a href="3d">
-                        <img src="http://th00.deviantart.net/fs71/PRE/f/2013/086/0/b/0be1fdbdd20bc748c632ef363db32930-d5zh8ne.jpg" alt="Glass Torus with Caustics"/>
+                        <a href="http://www.youtube.com/watch?v=iQtAZdkXWVU" target="_blank" data-embed="http://www.youtube.com/embed/iQtAZdkXWVU?color=white&amp;modestbranding=1&amp;rel=0" class="youtube_embed"><img src="img/3d/snail.jpg" alt="Snail Caravan &mdash; 3D Animation"/></a>
                     </a>
                 </div>
             </div>
