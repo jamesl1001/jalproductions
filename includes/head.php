@@ -18,9 +18,7 @@
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/touchicon-114.png">
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/touchicon-144.png">
 
-<!--[if IE]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
 <!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <script src="js/respond.min.js"></script>
 <![endif]-->
