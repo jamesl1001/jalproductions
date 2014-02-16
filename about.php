@@ -131,9 +131,6 @@
                             <td>Microsoft Visual Studio</td>
                         </tr>
                         <tr>
-                            <td>Microsoft Office</td>
-                        </tr>
-                        <tr>
                             <td>MySQL</td>
                         </tr>
                         <tr>
