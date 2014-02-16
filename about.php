@@ -83,9 +83,6 @@
                             <td>PHP</td>
                         </tr>
                         <tr>
-                            <td>AJAX</td>
-                        </tr>
-                        <tr>
                             <td>Sass</td>
                         </tr>
                         <tr>
