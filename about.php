@@ -113,7 +113,7 @@
                     <h3>Software</h3>
                     <table>
                         <tr>
-                            <td>Adobe Photoshop, Dreamweaver, Flash, After Effects, Premiere Pro</td>
+                            <td>Photoshop, Dreamweaver, Flash, After Effects, Premiere Pro</td>
                         </tr>
                         <tr>
                             <td>Autodesk 3DS Max</td>
