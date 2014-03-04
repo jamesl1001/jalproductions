@@ -126,7 +126,7 @@ function getDeviceType() {
 
 function enhanceYoutube() {
     if(device == 'desktop') {
-        var $yt   = $('.youtube_embed');
+        var $yt   = $('#youtube_embed');
         var embed = $yt.data('embed');
         $yt.replaceWith('<div class="youtube_wrapper"><iframe class="youtube_embed" src="' + embed + '" frameborder="0" allowfullscreen></iframe></div>');
     }

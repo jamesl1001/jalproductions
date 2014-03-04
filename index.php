@@ -24,9 +24,7 @@
                 </div>
 
                 <div class="feature">
-                    <a href="3d">
-                        <a href="http://www.youtube.com/watch?v=iQtAZdkXWVU" target="_blank" data-embed="http://www.youtube.com/embed/iQtAZdkXWVU?color=white&amp;modestbranding=1&amp;rel=0" class="youtube_embed"><img src="img/3d/snail.jpg" alt="Snail Caravan &mdash; 3D Animation"/></a>
-                    </a>
+                    <a href="http://www.youtube.com/watch?v=iQtAZdkXWVU" target="_blank" data-embed="http://www.youtube.com/embed/iQtAZdkXWVU?color=white&amp;modestbranding=1&amp;rel=0" id="youtube_embed"><img src="img/3d/snail.jpg" alt="Snail Caravan &mdash; 3D Animation"/></a>
                 </div>
             </div>
         </div>
