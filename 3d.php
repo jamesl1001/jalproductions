@@ -14,7 +14,9 @@
             <div class="col col-p">
                 <div class="feature">
                     <h3>Youtube Playlist</h3>
-                    <a href="http://www.youtube.com/playlist?list=PLE40E1A4499EEBB5D" target="_blank" data-embed="http://www.youtube.com/embed/videoseries?list=PLE40E1A4499EEBB5D" class="button icon_after icon_after-play youtube_embed">Youtube playlist</a>
+                    <div class="youtube_wrapper">
+                        <a href="http://www.youtube.com/playlist?list=PLE40E1A4499EEBB5D" target="_blank" data-embed="http://www.youtube.com/embed/videoseries?list=PLE40E1A4499EEBB5D" id="youtube_embed" class="button icon_after icon_after-play youtube_embed">Youtube playlist</a>
+                    </div>
                 </div>
             </div>
 
