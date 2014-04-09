@@ -1,4 +1,46 @@
 <xml>
+	<item short="cell">
+		<title>Cell Industries</title>
+		<status></status>
+		<url>http://cell-industries.co.uk/</url>
+		<client>University Project</client>
+		<brief>
+			<![CDATA[
+				<p>Cell Industries is my Final Year Project with <a href="http://jacobhammond.co.uk/" target="_blank">Jacob Hammond</a> and <a href="http://faooful.com/" target="_blank">Joseph Williams</a>.</p>
+
+				<p><strong>Our goals:</strong> Our initial goals were to integrate and unite new web technologies, to use 3D and modern design techniques to enhance the visuals of the website and to experiment with new ways of interacting with the web. We used the facade of Cell Industries to allow us to use all these technologies and techniques for a single purpose.</p>
+
+				<p><strong>The concept:</strong> Cell Industries presents Project Titan: Preserving The Planet. We allow everyday users to choose which parts of the planet they want to preserve; we will clone and preserve the chosen environments, ready to be restored in the event of undesirable occurrences. Similar to the concept of <a href="http://en.wikipedia.org/wiki/Crowd_funding" target="_blank">Crowd Funding</a>, the more people who participate, the more of the planet will be preserved.</p>
+
+				<p><strong>The cloning process:</strong> The key feature, and the most technically challenging, was the cloning process. By combining Google Elevation API, Google Static Maps API and ThreeJS, we automatically generate and display 3D topographical representations of real-world areas using only code. <a href="http://precisepixels.co.uk/blog/2014/02/22/generating-3d-terrain-models-using-google-elevation-api-google-static-maps-and-threejs/" target="_blank">Read more about the step-by-step process here</a>.</p>
+
+				<p><strong>3D models in-browser:</strong> By using ThreeJS, we can display a 3D representation of the data we collected about a particular environment during the cloning process. We also use WolframAlpha's API to pull in relevant data about the environment and its surrounding areas.</p>
+
+				<p><strong>Webcam gestures:</strong> As a fun extra, we also added in the ability to take control of and rotate the environment using only gestures in front of the webcam. Waving your hand (or any part of your body) in front of the webcam will allow you to rotate the environment left, right, up and down. Although this is only a very primative use of the webcam, it is an example of how webcam gestures can be used in the web. It opens up many possibilities of non-peripheral interaction with the browser, especially in the accessibility and games industries.</p>
+			]]>
+		</brief>
+		<techused>
+			<![CDATA[
+				<ul>
+					<li>WebGL</li>
+					<li>ThreeJS</li>
+					<li>WebRTC webcam gestures</li>
+					<li>Google Elevation API</li>
+					<li>Google Static Maps API</li>
+					<li>PHP MVC</li>
+					<li>Login system</li>
+					<li>Checkbox hack</li>
+					<li>Feature detection</li>
+					<li>Font icons</li>
+					<li>Mobile first</li>
+					<li>Responsive</li>
+					<li>Sass</li>
+				</ul>
+			]]>
+		</techused>
+		<image>img/web/cell.jpg</image>
+	</item>
+
 	<item short="precisepixels2">
 		<title>Precise Pixels</title>
 		<status>v2</status>
