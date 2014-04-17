@@ -16,7 +16,7 @@
 
 				<p><strong>3D models in-browser:</strong> By using ThreeJS, we can display a 3D representation of the data we collected about a particular environment during the cloning process. We also use WolframAlpha's API to pull in relevant data about the environment and its surrounding areas.</p>
 
-				<p><strong>Webcam gestures:</strong> As a fun extra, we also added in the ability to take control of and rotate the environment using only gestures in front of the webcam. Waving your hand (or any part of your body) in front of the webcam will allow you to rotate the environment left, right, up and down. Although this is only a very primative use of the webcam, it is an example of how webcam gestures can be used in the web. It opens up many possibilities of non-peripheral interaction with the browser, especially in the accessibility and games industries.</p>
+				<p><strong>Webcam gestures:</strong> As a fun extra, we also added in the ability to take control of and rotate the environment using only gestures in front of the webcam. Waving your hand (or any part of your body) in front of the webcam will allow you to rotate the environment left, right, up and down. Although this is only a very primitive use of the webcam, it is an example of how webcam gestures can be used in the web. It opens up many possibilities of non-peripheral interaction with the browser, especially in the accessibility and games industries.</p>
 			]]>
 		</brief>
 		<techused>
