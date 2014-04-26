@@ -4,7 +4,7 @@ header {
   min-width: $minw;
   height: 40px;
   background: $blue;
-  position: relative;
+  position: fixed;
   z-index: 3;
   color: #EEE;
 }
