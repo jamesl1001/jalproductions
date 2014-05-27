@@ -13,13 +13,15 @@
             <div class="col col-p">
                 <div class="feature">
                     <h3>Youtube Playlist</h3>
-                    <a href="http://www.youtube.com/playlist?list=PLC0D2C2ABFF39CD68" target="_blank" data-embed="http://www.youtube.com/embed/videoseries?list=PLC0D2C2ABFF39CD68&amp;autoplay=0" class="button icon_after icon_after-youtube youtube_embed">Youtube playlist</a>
+                    <div class="youtube_wrapper">
+                        <a href="http://www.youtube.com/playlist?list=PLC0D2C2ABFF39CD68" target="_blank" data-embed="http://www.youtube.com/embed/videoseries?list=PLC0D2C2ABFF39CD68&amp;autoplay=0" id="youtube_embed" class="button icon_after icon_after-play youtube_embed">Youtube playlist</a>
+                    </div>
                 </div>
             </div>
 
             <div class="col col-s">
                 <h3>Stills</h3>
-                <div class="imagebox_wrapper">
+                <div class="imagebox_wrapper no-iv">
                     <?php
                         $feed      = simplexml_load_file('http://rss.ngfiles.com/users/2389000/fu5ion/flash/');
                         $channel   = $feed->channel;

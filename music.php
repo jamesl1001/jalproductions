@@ -10,7 +10,7 @@
         <div id="page">
             <h2>Music</h2>
 
-            <div class="imagebox_wrapper">
+            <div class="imagebox_wrapper no-iv">
                 <?php
                     $feed      = simplexml_load_file('http://rss.ngfiles.com/users/2389000/fu5ion/audio/');
                     $channel   = $feed->channel;

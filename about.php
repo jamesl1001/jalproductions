@@ -83,9 +83,6 @@
                             <td>PHP</td>
                         </tr>
                         <tr>
-                            <td>AJAX</td>
-                        </tr>
-                        <tr>
                             <td>Sass</td>
                         </tr>
                         <tr>
@@ -116,7 +113,7 @@
                     <h3>Software</h3>
                     <table>
                         <tr>
-                            <td>Adobe Photoshop, Dreamweaver, Flash, After Effects, Premiere Pro</td>
+                            <td>Photoshop, Dreamweaver, Flash, After Effects, Premiere Pro</td>
                         </tr>
                         <tr>
                             <td>Autodesk 3DS Max</td>
@@ -132,9 +129,6 @@
                         </tr>
                         <tr>
                             <td>Microsoft Visual Studio</td>
-                        </tr>
-                        <tr>
-                            <td>Microsoft Office</td>
                         </tr>
                         <tr>
                             <td>MySQL</td>

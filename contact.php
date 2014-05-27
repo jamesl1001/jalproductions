@@ -20,7 +20,7 @@
                 <a href="#menu" id="open_menu" class="button icon_after icon_after-menu">Social links</a>
 
                 <h3>CV</h3>
-                <p>07/2013</p>
+                <p>04/2014</p>
                 <a href="download/JamesLeeCVOnline.docx" class="button icon_after icon_after-download">Download my CV</a>
             </div>
         </div>
