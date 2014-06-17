@@ -117,7 +117,7 @@ function getFirstLast() {
 
 function openIV(e, $this) {
     if($('body').hasClass('flash') || $('body').hasClass('music')) { return false; }
-    e.preventDefault();
+    if(e != null) { e.preventDefault(); }
     ivOpen = true;
     $iv.addClass('iv-show');
     $ivImg.attr('src', $this[0].href);
@@ -241,6 +241,14 @@ function hashChange() {
         closeIV();
     }
 }
+
+(function openIVIfHashPresent() {
+    var hashElem = $('.imagebox>img[title="' + location.hash.slice(1) + '"]');
+
+    if(hashElem.length > 0) {
+        openIV(null, hashElem.parent());
+    }
+})();
 
 /*===LOAD MORE===*/
 $('#load_more').click(function(e) {
