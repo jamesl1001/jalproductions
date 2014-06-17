@@ -105,6 +105,10 @@ $ivImg.on('touchend', function(e) {
     touchEndIV(e);
 });
 
+$(window).on('hashchange', function() {
+    hashChange();
+});
+
 // FUNCTIONS
 function getFirstLast() {
     firstImageRef = $('.imagebox:first-child');
@@ -123,11 +127,13 @@ function openIV(e, $this) {
     getFirstLast();
     firstOrLast();
     $(document).on('keyup', handleKeys);
+    location.hash = $this[0].childNodes[0].title;
 }
 
 function goLeft() {
     clearImage();
     $ivImg.attr('src', prevImageRef[0].href);
+    location.hash = prevImageRef[0].childNodes[0].title;
     prevImageRef = openImageRef.prev().prev();
     nextImageRef = openImageRef;
     openImageRef = openImageRef.prev();
@@ -137,6 +143,7 @@ function goLeft() {
 function goRight() {
     clearImage();
     $ivImg.attr('src', nextImageRef[0].href);
+    location.hash = nextImageRef[0].childNodes[0].title;
     prevImageRef = openImageRef;
     nextImageRef = openImageRef.next().next();
     openImageRef = openImageRef.next();
@@ -189,6 +196,7 @@ function closeIV() {
     $iv.removeClass('iv-show');
     resetNav();
     $(document).off('keyup', handleKeys);
+    location.hash = '';
 }
 
 function touchStartIV(e) {
@@ -224,6 +232,12 @@ function thresholdCheck() {
             goRight();
         }
     } else if(distX == 0) {
+        closeIV();
+    }
+}
+
+function hashChange() {
+    if(location.hash == '') {
         closeIV();
     }
 }
