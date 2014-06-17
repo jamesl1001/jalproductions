@@ -9,11 +9,6 @@ $(document).ready(function() {
     device = '';
 });
 
-$(window).load(function() {
-    getDeviceType();
-    enhanceYoutube();
-});
-
 $(window).resize($.debounce(250, debounce));
 
 function debounce() {
@@ -289,7 +284,7 @@ function append(page) {
 /*===FUNCTIONS===*/
 var w;
 
-function getDeviceType() {
+(function getDeviceType() {
     w = $(window).width();
     if(w < 480) {
         device = 'mobile';
@@ -298,7 +293,7 @@ function getDeviceType() {
     } else {
         device = 'desktop';
     }
-};
+})();
 
 function isTouch() {
     if(('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch) {
@@ -308,10 +303,10 @@ function isTouch() {
     }
 }
 
-function enhanceYoutube() {
+(function enhanceYoutube() {
     if(device == 'desktop') {
         var $yt   = $('#youtube_embed');
         var embed = $yt.data('embed');
         $yt.parent().replaceWith('<div class="youtube_wrapper youtube_wrapper--loaded"><iframe class="youtube_embed" src="' + embed + '" frameborder="0" allowfullscreen></iframe></div>');
     }
-}
+})();
