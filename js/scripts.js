@@ -1,14 +1,12 @@
 /*===EVENT HANDLERS===*/
 $(document).ready(function() {
     $('body').addClass('js');
+    if(isTouch()) {
+        $('body').addClass('touch');
+    }
     $menu = $('#menu');
     $view = $('#viewport');
     device = '';
-});
-
-$(window).load(function() {
-    getDeviceType();
-    enhanceYoutube();
 });
 
 $(window).resize($.debounce(250, debounce));
@@ -55,28 +53,199 @@ $("#menu").swipe({
 });
 
 /*===IMAGEVIEWER===*/
-$('.imagebox img').live('click', function(e) {
-    if(!$('.imagebox_wrapper').hasClass('no-iv')) {
-        e.preventDefault();
-        $('.iv').addClass('iv-show');
-        $('.iv-image-wrapper img').attr('src', $(this).parent()[0].href);
-    }
+var $iv      = $('.iv'),
+    $ivImg   = $('.iv-image-wrapper img'),
+    $ivLeft  = $('.iv-left'),
+    $ivRight = $('.iv-right'),
+
+    ivOpen = false,
+
+    openImageRef,
+    prevImageRef,
+    nextImageRef,
+    firstImageRef,
+    lastImageRef,
+
+    startX,
+    startTime,
+    elapsedTime,
+    distX;
+
+// EVENT HANDLERS
+$('.imagebox').live('click', function(e) {
+    openIV(e, $(this));
 });
 
-$('.iv-image-wrapper').click(function(e) {
+$ivLeft.click(function() {
+    goLeft();
+});
+
+$ivRight.click(function() {
+    goRight();
+});
+
+$('.iv-image-wrapper').click(function() {
     closeIV();
 });
 
-$(document).keyup(function(e) {
-    if (e.keyCode == 27) {
-        closeIV();
-    }
+$ivImg.on('touchstart', function(e) {
+    touchStartIV(e);
 });
 
-function closeIV() {
-    $('.iv').removeClass('iv-show');
+$ivImg.on('touchmove', function(e) {
+    touchMoveIV(e);
+});
+
+$ivImg.on('touchend', function(e) {
+    touchEndIV(e);
+});
+
+$(window).on('hashchange', function() {
+    hashChange();
+});
+
+// FUNCTIONS
+function getFirstLast() {
+    firstImageRef = $('.imagebox:first-child');
+    lastImageRef  = $('.imagebox:last-child');
 }
 
+function openIV(e, $this) {
+    if($('body').hasClass('flash') || $('body').hasClass('music')) { return false; }
+    if(e != null) { e.preventDefault(); }
+    ivOpen = true;
+    $iv.addClass('iv-show');
+    $ivImg.attr('src', $this[0].href);
+    openImageRef = $this;
+    prevImageRef = openImageRef.prev();
+    nextImageRef = openImageRef.next();
+    getFirstLast();
+    firstOrLast();
+    $(document).on('keyup', handleKeys);
+    location.hash = $this[0].childNodes[0].title;
+}
+
+function goLeft() {
+    clearImage();
+    $ivImg.attr('src', prevImageRef[0].href);
+    location.hash = prevImageRef[0].childNodes[0].title;
+    prevImageRef = openImageRef.prev().prev();
+    nextImageRef = openImageRef;
+    openImageRef = openImageRef.prev();
+    firstOrLast();
+}
+
+function goRight() {
+    clearImage();
+    $ivImg.attr('src', nextImageRef[0].href);
+    location.hash = nextImageRef[0].childNodes[0].title;
+    prevImageRef = openImageRef;
+    nextImageRef = openImageRef.next().next();
+    openImageRef = openImageRef.next();
+    firstOrLast();
+}
+
+function clearImage() {
+    $ivImg.attr('src', '');
+}
+
+function firstOrLast() {
+    if(openImageRef[0] == firstImageRef[0]) {
+        $iv.addClass('first');
+        return 'first';
+    } else if(openImageRef[0] == lastImageRef[0]) {
+        $iv.addClass('last');
+        return 'last';
+    } else {
+        resetNav();
+        return null;
+    }
+}
+
+function resetNav() {
+    $iv.removeClass('first last');
+}
+
+function handleKeys(e) {
+    if(ivOpen) {
+        switch(e.keyCode) {
+        case 27:
+            closeIV();
+            break;
+        case 37:
+            if(firstOrLast() != 'first') {
+                goLeft();
+            }
+            break;
+        case 39:
+            if(firstOrLast() != 'last') {
+                goRight();
+            }
+            break;
+        }
+    }
+}
+
+function closeIV() {
+    ivOpen = false;
+    $iv.removeClass('iv-show');
+    resetNav();
+    $(document).off('keyup', handleKeys);
+    location.hash = '';
+}
+
+function touchStartIV(e) {
+    var touchObj = e.originalEvent.changedTouches[0];
+    distX = 0;
+    startX = touchObj.pageX;
+    startTime = e.timeStamp;
+    e.preventDefault();
+}
+
+function touchMoveIV(e) {
+    var touchObj = e.originalEvent.changedTouches[0];
+    distX = touchObj.pageX - startX;
+    $ivImg.css({'left':distX});
+    e.preventDefault();
+}
+
+function touchEndIV(e) {
+    var touchObj = e.originalEvent.changedTouches[0];
+    elapsedTime = e.timeStamp - startTime;
+    $ivImg.css({'left':0});
+    thresholdCheck();
+    e.preventDefault();
+}
+
+function thresholdCheck() {
+    if(distX > w/4) {
+        if(firstOrLast() != 'first') {
+            goLeft();
+        }
+    } else if(distX < -w/4) {
+        if(firstOrLast() != 'last') {
+            goRight();
+        }
+    } else if(distX == 0) {
+        closeIV();
+    }
+}
+
+function hashChange() {
+    if(location.hash == '') {
+        closeIV();
+    }
+}
+
+(function openIVIfHashPresent() {
+    var hashElem = $('.imagebox>img[title="' + location.hash.slice(1) + '"]');
+
+    if(hashElem.length > 0) {
+        openIV(null, hashElem.parent());
+    }
+})();
+
+/*===LOAD MORE===*/
 $('#load_more').click(function(e) {
     nBefore = $('.imagebox').size();
     append($(this).data('page'));
@@ -113,8 +282,10 @@ function append(page) {
 };
 
 /*===FUNCTIONS===*/
-function getDeviceType() {
-    var w = $(window).width();
+var w;
+
+(function getDeviceType() {
+    w = $(window).width();
     if(w < 480) {
         device = 'mobile';
     } else if(w >= 480 && w < 720) {
@@ -122,12 +293,20 @@ function getDeviceType() {
     } else {
         device = 'desktop';
     }
-};
+})();
 
-function enhanceYoutube() {
+function isTouch() {
+    if(('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+(function enhanceYoutube() {
     if(device == 'desktop') {
         var $yt   = $('#youtube_embed');
         var embed = $yt.data('embed');
         $yt.parent().replaceWith('<div class="youtube_wrapper youtube_wrapper--loaded"><iframe class="youtube_embed" src="' + embed + '" frameborder="0" allowfullscreen></iframe></div>');
     }
-}
+})();
