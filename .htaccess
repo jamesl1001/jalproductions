@@ -1,7 +1,6 @@
 ## Sub-directory redirects
 Redirect /blog/ http://blog.jalproductions.co.uk
 
-## Add .php to access file, but don't redirect
-RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteCond %{REQUEST_URI} !/$
-RewriteRule (.*) $1\.php [L]
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ front-controller.php?q=$1 [QSA]

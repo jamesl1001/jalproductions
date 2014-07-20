@@ -1,5 +1,5 @@
 <meta charset="utf-8">
-<meta name="description" content="JaL Productions (JaLpro) is my Multimedia Technology and Design portfolio. I create 3D modelling, animation, art and design, games, music, photography, programming and web design."/>
+<meta name="description" content="JaL Productions is the Multimedia Technology and Design portfolio of James Alexander Lee. It includes 3D modelling, animation, art and design, games, music, photography, programming and web design."/>
 <meta name="author" content="James Alexander Lee"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
 
@@ -7,10 +7,15 @@
 <meta property="og:url" content="http://jalproductions.co.uk/"/>
 <meta property="og:image" content="http://jalproductions.co.uk/img/logo.jpg"/>
 <meta property="og:site_name" content="JaL Productions"/>
-<meta property="og:description" content="JaL Productions (JaLpro) is my Multimedia Technology and Design portfolio. I create 3D modelling, animation, art and design, games, music, photography, programming and web design."/>
+<meta property="og:description" content="JaL Productions is the Multimedia Technology and Design portfolio of James Alexander Lee. It includes 3D modelling, animation, art and design, games, music, photography, programming and web design."/>
 
 <title>JaL Productions</title>
-<link rel="stylesheet" type="text/css" href="styles.css" />
+
+<?php if($_SERVER['SERVER_NAME'] == 'jal.dev'): ?>
+<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+<?php else: ?>
+<link rel="stylesheet" type="text/css" href="build/styles.min.css"/>
+<?php endif; ?>
 
 <link rel="shortcut icon" href="img/favicon.ico"/>
 <link rel="apple-touch-icon-precomposed" href="img/touchicon-57.png">

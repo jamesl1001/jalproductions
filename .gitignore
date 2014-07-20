@@ -1,5 +1,7 @@
 .sass-cache
+build
+css
 Design
 img/thumb
+node_modules
 Stuff
-styles.css
