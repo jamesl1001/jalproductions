@@ -4,6 +4,7 @@
 		<status></status>
 		<url>http://cell-industries.co.uk/</url>
 		<client>University Project</client>
+		<subsection>university</subsection>
 		<brief>
 			<![CDATA[
 				<p>Cell Industries is my Final Year Project with <a href="http://jacobhammond.co.uk/" target="_blank">Jacob Hammond</a> and <a href="http://faooful.com/" target="_blank">Joseph Williams</a>.</p>
@@ -46,6 +47,7 @@
 		<status>v2</status>
 		<url>http://www.precisepixels.co.uk/</url>
 		<client>Precise Pixels</client>
+		<subsection>precisepixels</subsection>
 		<brief>
 			<![CDATA[
 				<img src="img/PPproject.png" alt="Precise Pixels project" title="Precise Pixels project"/>
@@ -71,6 +73,7 @@
 		<status>v4</status>
 		<url>http://jalproductions.co.uk/</url>
 		<client>Myself</client>
+		<subsection>jal</subsection>
 		<brief>
 			<![CDATA[
 				<p>Build a mobile first, responsive, high performance site that supports devices ranging from feature phones all the way up to desktop.</p>
@@ -97,6 +100,7 @@
 		<status>in progress</status>
 		<url>http://www.young-grafters.com/</url>
 		<client>Melvin Appleford</client>
+		<subsection>clients</subsection>
 		<brief>
 			<![CDATA[
 				<p>A branded clothing site built within the BigCartel framework.</p>
@@ -134,6 +138,7 @@
 				<a href="http://www.bbc.co.uk/worldservice/languages/index.shtml" target="_blank"><img src="http://static.bbci.co.uk/frameworks/barlesque/2.44.2/mobile/3.5/img/blocks_240.png" alt="BBC"/></a>
 			]]>
 		</client>
+		<subsection>bbc</subsection>
 		<brief>
 			<![CDATA[
 				<h5>BBC Indonesia</h5>
@@ -167,6 +172,7 @@
 		<status>alpha</status>
 		<url>http://jalproductions.co.uk/projects/jOS/</url>
 		<client>Myself</client>
+		<subsection>personal</subsection>
 		<brief>
 			<![CDATA[
 				<p>An experimentative project using the latest technologies to build a web-based "desktop".</p>
@@ -211,6 +217,7 @@
 				<a href="http://www.bbc.co.uk/worldservice/languages/index.shtml" target="_blank"><img src="http://static.bbci.co.uk/frameworks/barlesque/2.44.2/mobile/3.5/img/blocks_240.png" alt="BBC"/></a>
 			]]>
 		</client>
+		<subsection>bbc</subsection>
 		<brief>
 			<![CDATA[
 				<p>Achieving <strong>1.6 million page impressions</strong> on story pages alone, the Olympics Live Action Feeds module was the most popular of all the Olympics related projects built by the BBC World Service team during this year's games.</p>
@@ -244,6 +251,7 @@
 		<status>alpha</status>
 		<url>http://jalproductions.co.uk/projects/innuendome/</url>
 		<client>Myself</client>
+		<subsection>personal</subsection>
 		<brief>
 			<![CDATA[
 				<p>innuen;)do.me is a small, silly side project I have been working on. I came up with the concept several months ago, but didn't have the skills to program it.</p>
@@ -273,6 +281,7 @@
 		<status>v3 deprecated</status>
 		<url>http://jalproductions.co.uk/projects/jalpro3/</url>
 		<client>Myself</client>
+		<subsection>jal</subsection>
 		<brief>
 			<![CDATA[
 				<p>My updated site was built for several purposes. Database loaded content which is easily updated, a clean design that focuses on content and the use of new HTML5 and CSS3 standards.</p>
@@ -299,6 +308,7 @@
 		<status>expired</status>
 		<url>http://precisepixels.co.uk/DelhiKitchen/</url>
 		<client>Mohammed Rahmen, Proprietor</client>
+		<subsection>precisepixels</subsection>
 		<brief>
 			<![CDATA[
 				<img src="img/PPproject.png" alt="Precise Pixels project" title="Precise Pixels project"/>
@@ -324,6 +334,7 @@
 		<status></status>
 		<url>http://peopleunited.org.uk/</url>
 		<client>Tom Andrews, Chief Executive</client>
+		<subsection>precisepixels</subsection>
 		<brief>
 			<![CDATA[
 				<img src="img/PPproject.png" alt="Precise Pixels project" title="Precise Pixels project"/>
@@ -356,6 +367,7 @@
 		<status></status>
 		<url>http://taxiholland.com/</url>
 		<client>Francisco Marti</client>
+		<subsection>precisepixels</subsection>
 		<brief>
 			<![CDATA[
 				<img src="img/PPproject.png" alt="Precise Pixels project" title="Precise Pixels project"/>
@@ -383,6 +395,7 @@
 		<status>pending</status>
 		<url>http://jalproductions.co.uk/projects/NorthfleetPress/</url>
 		<client>Northfleet Press</client>
+		<subsection>clients</subsection>
 		<brief>
 			<![CDATA[
 				<p>Site re-design for this Northfleet-based printing business.</p>
@@ -408,6 +421,7 @@
 		<status></status>
 		<url>http://pekingrestaurantgravesend.co.uk/</url>
 		<client>Loong, Proprietor</client>
+		<subsection>precisepixels</subsection>
 		<brief>
 			<![CDATA[
 				<img src="img/PPproject.png" alt="Precise Pixels project" title="Precise Pixels project"/>
@@ -433,6 +447,7 @@
 		<status>v1 deprecated</status>
 		<url>http://www.precisepixels.co.uk/old/</url>
 		<client>Precise Pixels</client>
+		<subsection>precisepixels</subsection>
 		<brief>
 			<![CDATA[
 				<img src="img/PPproject.png" alt="Precise Pixels project" title="Precise Pixels project"/>
@@ -459,6 +474,7 @@
 		<status>deprecated</status>
 		<url>http://www.peopleunited.org.uk/OldSite/</url>
 		<client>Tom Andrews, Chief Executive</client>
+		<subsection>precisepixels</subsection>
 		<brief>
 			<![CDATA[
 				<p>People United is an arts charity based in Canterbury</p>
@@ -482,6 +498,7 @@
 		<status>v2 deprecated</status>
 		<url>http://jalproductions.co.uk/projects/jalpro2/</url>
 		<client>Myself</client>
+		<subsection>jal</subsection>
 		<brief>
 			<![CDATA[
 				<p>I felt like it was time for a change. The old site was extremely outdated layout-wise, still utilising a table-based layout, the design was old and boring, content was cumbersome to update and visitors/devices without a Flash Player were doomed to stay on the home page for as long as they could last without hitting Alt+F4! Another reason for the update is the fact that my uni course has helped my understanding of CSS greatly - thus I feel I should put it to good use!</p>
@@ -505,6 +522,7 @@
 		<status></status>
 		<url>http://ags.net76.net/</url>
 		<client>University Project</client>
+		<subsection>university</subsection>
 		<brief>
 			<![CDATA[
 				<p>We were given a real charity website (<a href="http://www.gilbertssyndrome.org.uk/" target="_blank">http://www.gilbertssyndrome.org.uk/</a>) to redesign after learning the theory from our Interaction Design lectures at the University of Kent.</p>
@@ -530,6 +548,7 @@
 		<status></status>
 		<url>http://jalproductions.co.uk/projects/jal33/</url>
 		<client>University Project</client>
+		<subsection>university</subsection>
 		<brief>
 			<![CDATA[
 				<p>This website was made as a project for the Website Design section of my course.</p>
@@ -556,6 +575,7 @@
 		<status></status>
 		<url>http://jalproductions.co.uk/projects/LearnMaths/</url>
 		<client>University Project</client>
+		<subsection>university</subsection>
 		<brief>
 			<![CDATA[
 				<p>Project Brief: Develop a javascript webpage that will help an elementary school student to learn multiplication.</p>
@@ -581,6 +601,7 @@
 		<status>v1 deprecated</status>
 		<url>http://jalproductions.webege.com/</url>
 		<client>Myself</client>
+		<subsection>jal</subsection>
 		<brief>
 			<![CDATA[
 				<p>My very first website.</p>
