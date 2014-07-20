@@ -35,7 +35,12 @@
             <h3>What I'm Listening To</h3>
             <?php
                 $url    = 'http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=jamesl1001&api_key=547536d9928038ef6de3642606f6557a';
-                $feed   = simplexml_load_file($url);
+                $curl = curl_init();
+                curl_setopt_array($curl, array(
+                    CURLOPT_RETURNTRANSFER => 1,
+                    CURLOPT_URL => $url,
+                    CURLOPT_USERAGENT => 'JaL-User-Agent'));
+                $feed = simplexml_load_string(curl_exec($curl));
                 $track  = $feed->recenttracks->track[0];
                 $artist = (string)$track->artist;
                 $name   = (string)$track->name;
