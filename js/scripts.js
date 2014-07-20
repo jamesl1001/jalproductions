@@ -261,7 +261,7 @@ function append(page) {
         $('#load_more').addClass('loading');
         $.ajax({
             type: "GET",
-            url: "includes/loadMore.php",
+            url: "php/loadMore.php",
             data: {start: start, page: page},
             dataType: 'html',
             success: function(data) {
