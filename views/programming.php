@@ -17,7 +17,7 @@
 
         <table>
         <?php
-            $url  = 'https://api.github.com/users/jamesl1001/repos';
+            $url  = 'https://api.github.com/users/jamesl1001/repos?access_token=0fb0a045b906d133b3b2aa717fc4a501e52daae9';
             $curl = curl_init();
             curl_setopt_array($curl, array(
                 CURLOPT_RETURNTRANSFER => 1,
