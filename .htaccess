@@ -2,5 +2,6 @@
 Redirect /blog/ http://blog.jalproductions.co.uk
 
 RewriteEngine on
+RewriteCond %{REQUEST_URI} !^/projects/.+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*)$ front-controller.php?q=$1 [QSA]
