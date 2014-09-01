@@ -94,7 +94,7 @@
 
 	<item short="younggrafters">
 		<title>Young Grafters</title>
-		<status>in progress</status>
+		<status>pending</status>
 		<url>http://www.young-grafters.com/</url>
 		<client>Melvin Appleford</client>
 		<brief>
@@ -205,7 +205,7 @@
 	<item short="bbcwsolympics">
 		<title>BBC WS Olympics Live Action Feeds</title>
 		<status></status>
-		<url>http://www.bbc.co.uk/worldservice/syndication/features/olympic_live_wide/sinhala/</url>
+		<url></url>
 		<client>
 			<![CDATA[
 				<a href="http://www.bbc.co.uk/worldservice/languages/index.shtml" target="_blank"><img src="http://static.bbci.co.uk/frameworks/barlesque/2.44.2/mobile/3.5/img/blocks_240.png" alt="BBC"/></a>
@@ -457,7 +457,7 @@
 	<item short="peopleunited1">
 		<title>People United</title>
 		<status>deprecated</status>
-		<url>http://www.peopleunited.org.uk/OldSite/</url>
+		<url></url>
 		<client>Tom Andrews, Chief Executive</client>
 		<brief>
 			<![CDATA[
