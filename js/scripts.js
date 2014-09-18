@@ -122,7 +122,7 @@ function openIV(e, $this) {
     getFirstLast();
     firstOrLast();
     $(document).on('keyup', handleKeys);
-    location.hash = $this[0].childNodes[0].title;
+    location.hash = $this[0].childNodes[0].title.split(' ').join('_');
 }
 
 function goLeft() {
@@ -238,7 +238,7 @@ function hashChange() {
 }
 
 (function openIVIfHashPresent() {
-    var hashElem = $('.imagebox>img[title="' + location.hash.slice(1) + '"]');
+    var hashElem = $('.imagebox>img[title="' + location.hash.slice(1).split('_').join(' ') + '"]');
 
     if(hashElem.length > 0) {
         openIV(null, hashElem.parent());
