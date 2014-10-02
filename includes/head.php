@@ -17,6 +17,8 @@
 <link rel="stylesheet" type="text/css" href="build/styles.min.css"/>
 <?php endif; ?>
 
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700">
+
 <link rel="shortcut icon" href="img/favicon.ico"/>
 <link rel="apple-touch-icon-precomposed" href="img/touchicon-57.png">
 <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/touchicon-72.png">
