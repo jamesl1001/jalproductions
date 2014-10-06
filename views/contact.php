@@ -5,9 +5,8 @@
     <p>Send me an email and let me know what you'd like done.</p>
     <a href="&#109;ailto:james&#64;jalproductions&#46;co&#46;uk" class="button icon_after icon_after-contact">james&#64;jalproductions&#46;co&#46;uk</a>
 
-    <h3>Social</h3>
-    <p>Other online presences</p>
-    <a href="#menu" id="open_menu" class="button icon_after icon_after-menu">Social links</a>
+    <h3>Online presence</h3>
+    <a href="#menu" id="open_menu" class="button icon_after icon_after-menu">Links</a>
 
     <h3>CV</h3>
     <p>04/2014</p>

@@ -10,7 +10,7 @@
             <li class="programming seventh"><a href="programming">Programming</a></li>
             <li class="web seventh"><a href="web">Web</a></li>
         </ul>
-        <h2>Social</h2>
+        <h2>Links</h2>
         <ul class="menu_section menu_section-social">
             <li class="facebook seventh"><a href="https://www.facebook.com/jalproductions" target="_blank">Facebook</a></li>
             <li class="deviantart seventh"><a href="http://fu51on.deviantart.com/" target="_blank">DeviantArt</a></li>
