@@ -1,4 +1,27 @@
 <xml>
+	<item short="tjyfilms">
+		<title>TJY Films</title>
+		<status></status>
+		<url>http://tjyfilms.co.uk</url>
+		<client>TJ Yiacoupis</client>
+		<brief>
+			<![CDATA[
+				<p>TJ's freelance portfolio as a video producer, editor, camera operator.</p>
+			]]>
+		</brief>
+		<techused>
+			<![CDATA[
+				<ul>
+					<li>Simple content management through FTP and Youtube playlist</li>
+					<li>Checkbox hack navigation</li>
+					<li>Mobile first</li>
+					<li>Responsive</li>
+					<li>Sass</li>
+				</ul>
+			]]>
+		</techused>
+		<image>img/web/tjyfilms.jpg</image>
+	</item>
 	<item short="cell">
 		<title>Cell Industries</title>
 		<status></status>
