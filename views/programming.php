@@ -52,7 +52,7 @@
 
         <p>I worked with <strong>ActionScript 2.0</strong> since 2005. I first produced a maths game for children as part of my school curriculum. From then onwards I produced my own <a href="flash">games and animations</a> as a hobby until 2009.</p>
         <p>In my second year of university I learnt <strong>ActionScript 3.0</strong> and developed a <a href="projects/DigitalPortfolio" target="_blank">portfolio showcasing my work</a>.</p>
-        <p>I also produced my portfolio for applying to universities in Flash using ActionScript 2.0. <a href="http://jlport.tk/" target="_blank">Take a look</a>.</p>
+        <p>I also produced my portfolio for applying to universities in Flash using ActionScript 2.0. <a href="projects/PreUniPortfolio.swf" target="_blank">Take a look</a>.</p>
     </div>
 
     <hr>
