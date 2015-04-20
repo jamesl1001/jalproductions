@@ -107,7 +107,7 @@
 					<li>Sass</li>
 					<li>Retina sprites</li>
 					<li>Fluid gallery</li>
-					<li><a href="https://github.com/jamesl1001/Deviant-Art-CMS" target="_blank">DeviantArt/Newgrounds driven content</a></li>
+					<li><a href="https://github.com/jamesl1001/deviantART-API" target="_blank">DeviantArt/Newgrounds driven content</a></li>
 					<li>XPath</li>
 				</ul>
 			]]>
@@ -344,7 +344,7 @@
 
 	<item short="peopleunited2">
 		<title>People United Redesign</title>
-		<status></status>
+		<status>deprecated</status>
 		<url>http://peopleunited.org.uk/</url>
 		<client>Tom Andrews, Chief Executive</client>
 		<brief>
@@ -602,7 +602,7 @@
 	<item short="jalpro1">
 		<title>JaL Productions</title>
 		<status>v1 deprecated</status>
-		<url>http://jalproductions.webege.com/</url>
+		<url>http://jalproductions.co.uk/projects/jalpro1/</url>
 		<client>Myself</client>
 		<brief>
 			<![CDATA[
