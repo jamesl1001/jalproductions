@@ -51,7 +51,7 @@
     <div class="col col-s">
         <div id="university">
             <h3>University</h3>
-            <p>I graduated from the University of Kent, Canterbury in 2014 with a First Class Honours degree in BSc (Hons) Multimedia Technology and Design with a Year in Industry.</p>
+            <p>I graduated from the <span itemprop="alumniOf">University of Kent</span>, Canterbury in 2014 with a First Class Honours degree in BSc (Hons) Multimedia Technology and Design with a Year in Industry.</p>
             <p>I studied a wide range of modules including web design, photography, film, 2D animation, 3D modelling, visual effects, Android development and programming in several languages.</p>
             <p>I am currently still at the University of Kent studying for a PhD in Digital Arts with an emphasis on web technologies and mobile devices.</p>
         </div>
