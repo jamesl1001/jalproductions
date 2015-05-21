@@ -4,7 +4,7 @@
     <?php
         include 'php/getDeviations.php';
         $_SESSION['loaded-photography'] = (isset($_SESSION['loaded-photography'])) ? $_SESSION['loaded-photography'] : 16;
-        $html = getDeviations('http://backend.deviantart.com/rss.xml?q=gallery:fu51on/27123391', $_SESSION['loaded-photography']);
+        $html = getDeviations('http://backend.deviantart.com/rss.xml?q=gallery:fu51on/54555081', $_SESSION['loaded-photography']);
         echo $html;
     ?>
 </div>

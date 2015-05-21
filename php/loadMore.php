@@ -10,7 +10,7 @@ switch($page) {
         $album = 27123352;
         break;
     case 'photography':
-        $album = 27123391;
+        $album = 54555081;
         break;
 }
 $html = getDeviations("http://backend.deviantart.com/rss.xml?q=gallery:fu51on/$album", 8, $start, true);
