@@ -128,7 +128,7 @@ function openIV(e, $this) {
 function goLeft() {
     clearImage();
     $ivImg.attr('src', prevImageRef[0].href);
-    location.hash = prevImageRef[0].childNodes[0].title;
+    location.hash = prevImageRef[0].childNodes[0].title.split(' ').join('_');
     prevImageRef = openImageRef.prev().prev();
     nextImageRef = openImageRef;
     openImageRef = openImageRef.prev();
@@ -138,7 +138,7 @@ function goLeft() {
 function goRight() {
     clearImage();
     $ivImg.attr('src', nextImageRef[0].href);
-    location.hash = nextImageRef[0].childNodes[0].title;
+    location.hash = nextImageRef[0].childNodes[0].title.split(' ').join('_');
     prevImageRef = openImageRef;
     nextImageRef = openImageRef.next().next();
     openImageRef = openImageRef.next();
