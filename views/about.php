@@ -14,6 +14,7 @@
             <p>Hey! My name is <span itemprop="name">James Alexander Lee</span>, I'm <?= $age; ?> years old and I live in <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address"><span itemprop="region">Kent</span>, <span itemprop="country-name">UK</span></span>.</p>
             <p><span itemprop="affiliation">JaL Productions</span> is my portfolio of multimedia work.</p>
             <p>I started JaL Productions back in 2005 after being taught Flash in school and being inspired into the realm of digital arts. From then on I have been creating a variety of multimedia content.</p>
+            <p>Nowadays I specialise in full-stack web development.</p>
         </div>
 
         <div id="lastfm">
