@@ -111,7 +111,7 @@ function getFirstLast() {
 }
 
 function openIV(e, $this) {
-    if($('body').hasClass('flash') || $('body').hasClass('music')) { return false; }
+    if($this.parent().hasClass('no-iv')) { return false; }
     if(e != null) { e.preventDefault(); }
     ivOpen = true;
     $iv.addClass('iv-show');
