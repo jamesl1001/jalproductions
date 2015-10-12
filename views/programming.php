@@ -17,7 +17,8 @@
 
         <table>
         <?php
-            $url  = 'https://api.github.com/users/jamesl1001/repos?access_token=0fb0a045b906d133b3b2aa717fc4a501e52daae9';
+            $key  = file_get_contents('./php/gh.php');
+            $url  = "https://api.github.com/users/jamesl1001/repos?access_token=$key";
             $curl = curl_init();
             curl_setopt_array($curl, array(
                 CURLOPT_RETURNTRANSFER => 1,
