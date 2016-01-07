@@ -9,6 +9,9 @@
   width: 50%;
   *width: 49.9%; //IE7
   float: left;
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  cursor: zoom-in;
 
   img {
     width: 100%;

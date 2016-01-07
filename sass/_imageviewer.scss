@@ -85,6 +85,9 @@
   position: absolute;
   z-index: 5;
   cursor: pointer;
+  cursor: -webkit-zoom-out;
+  cursor: -moz-zoom-out;
+  cursor: zoom-out;
 }
 
 .iv-image-wrapper img {
@@ -98,7 +101,6 @@
   left: 0;
   right: 0;
   bottom: 0;
-  cursor: default;
 }
 
 .iv-overlay {
