@@ -1,4 +1,3 @@
-<h2>Home</h2>
 <div class="centre">
     <span id="jalproductions">JaL Productions</span>
     <p class="center_italic">Multimedia Technology and Design Portfolio</p>
