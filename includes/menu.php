@@ -21,6 +21,6 @@
             <li class="googleplus seventh"><a href="https://plus.google.com/116274038898998688233" target="_blank">Google+</a></li>
         </ul>
         <h2>&nbsp;</h2>
-        <p><a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" title="All work by JaL Productions is licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License">&copy; JaL Productions 2015</a></p>
+        <p><a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" title="All work by JaL Productions is licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License">&copy; JaL Productions 2016</a></p>
     </div>
 </nav>
