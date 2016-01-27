@@ -70,81 +70,36 @@
     <div class="col col-p" id="languages">
         <h3>Languages</h3>
         <table>
-            <tr>
-                <td>HTML5 &amp; CSS3</td>
-            </tr>
-            <tr>
-                <td>JavaScript &amp; jQuery</td>
-            </tr>
-            <tr>
-                <td>PHP</td>
-            </tr>
-            <tr>
-                <td>Sass</td>
-            </tr>
-            <tr>
-                <td>Ruby</td>
-            </tr>
-            <tr>
-                <td>ActionScript 3.0 &amp; 2.0</td>
-            </tr>
-            <tr>
-                <td>Visual Basic</td>
-            </tr>
-            <tr>
-                <td>C++</td>
-            </tr>
-            <tr>
-                <td>C#</td>
-            </tr>
-            <tr>
-                <td>Java</td>
-            </tr>
-            <tr>
-                <td>Android</td>
-            </tr>
+            <tr><td>HTML5 &amp; CSS3</td></tr>
+            <tr><td>JavaScript &amp; jQuery</td></tr>
+            <tr><td>PHP</td></tr>
+            <tr><td>Sass</td></tr>
+            <tr><td>Android</td></tr>
+            <tr><td>Java</td></tr>
+            <tr><td>Ruby</td></tr>
+            <tr><td>ActionScript 3.0 &amp; 2.0</td></tr>
+            <tr><td>R</td></tr>
+            <tr><td>C++</td></tr>
+            <tr><td>C#</td></tr>
+            <tr><td>Visual Basic</td></tr>
         </table>
     </div>
 
     <div class="col col-s" id="software">
         <h3>Software</h3>
         <table>
-            <tr>
-                <td>Photoshop, Dreamweaver, Flash, After Effects, Premiere Pro</td>
-            </tr>
-            <tr>
-                <td>Autodesk 3DS Max</td>
-            </tr>
-            <tr>
-                <td>NextLimit Realflow</td>
-            </tr>
-            <tr>
-                <td>Swift 3D</td>
-            </tr>
-            <tr>
-                <td>FL Studio</td>
-            </tr>
-            <tr>
-                <td>Microsoft Visual Studio</td>
-            </tr>
-            <tr>
-                <td>MySQL</td>
-            </tr>
-            <tr>
-                <td>WordPress</td>
-            </tr>
-            <tr>
-                <td>Git</td>
-            </tr>
-            <tr>
-                <td>Cucumber, QUnit, Jasmine</td>
-            </tr>
-            <tr>
-                <td>Grunt</td>
-            </tr>
-            <tr>
-                <td>Eclipse</td>
-            </tr>
+            <tr><td>Photoshop, Dreamweaver, Flash, After Effects, Premiere Pro</td></tr>
+            <tr><td>MySQL</td></tr>
+            <tr><td>Git</td></tr>
+            <tr><td>Grunt</td></tr>
+            <tr><td>Autodesk 3DS Max</td></tr>
+            <tr><td>NextLimit Realflow</td></tr>
+            <tr><td>WordPress</td></tr>
+            <tr><td>Swift 3D</td></tr>
+            <tr><td>FL Studio</td></tr>
+            <tr><td>Android Studio, Eclipse</td></tr>
+            <tr><td>Microsoft Visual Studio</td></tr>
+            <tr><td>Cucumber, QUnit, Jasmine</td></tr>
         </table>
     </div>
 </div>
