@@ -2,6 +2,7 @@
 <meta name="description" content="JaL Productions is the Multimedia Technology and Design portfolio of James Alexander Lee. It includes 3D modelling, animation, art and design, games, music, photography, programming and web design."/>
 <meta name="author" content="James Alexander Lee"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+<meta name="theme-color" content="#528FCC"/>
 
 <meta property="og:title" content="JaL Productions"/>
 <meta property="og:url" content="http://jalproductions.co.uk/"/>
