@@ -245,42 +245,6 @@ function hashChange() {
     }
 })();
 
-/*===LOAD MORE===*/
-$('#load_more').click(function(e) {
-    nBefore = $('.imagebox').size();
-    append($(this).data('page'));
-});
-
-/*===APPEND===*/
-var appending = false;
-var start     = $('.imagebox').size();
-
-function append(page) {
-    if(appending == false) {
-        appending = true;
-        $('#load_more').addClass('loading');
-        $.ajax({
-            type: "GET",
-            url: "php/loadMore.php",
-            data: {start: start, page: page},
-            dataType: 'html',
-            success: function(data) {
-                appending = false;
-                start += 8;
-                $('.imagebox_wrapper').append(data);
-                $('#load_more').removeClass('loading');
-                if($(data).find('.imagebox').prevObject.length < 8) {
-                    $('#load_more').hide();
-                }
-            },
-            error: function() {
-                $('#load_more').removeClass('loading');
-                alert("A problem has a occurred. Please try again.");
-            }
-        });
-    }
-};
-
 /*===FUNCTIONS===*/
 var w;
 

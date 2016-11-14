@@ -14,13 +14,10 @@
     <div class="imagebox_wrapper">
         <?php
             include 'php/getDeviations.php';
-            $_SESSION['loaded-threed'] = (isset($_SESSION['loaded-threed'])) ? $_SESSION['loaded-threed'] : 16;
-            $html = getDeviations('http://backend.deviantart.com/rss.xml?q=gallery:fu51on/27123361', $_SESSION['loaded-threed']);
+            $html = getDeviations('http://backend.deviantart.com/rss.xml?q=gallery:fu51on/27123361');
             echo $html;
         ?>
     </div>
-    
-    <div class="button" id="load_more" data-page="threed">load more <noscript>(requires Javascript)</noscript></div>
 </div>
 
 <?php include('includes/imageviewer.php'); ?>
