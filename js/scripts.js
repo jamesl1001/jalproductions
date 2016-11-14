@@ -88,18 +88,6 @@ $('.iv-image-wrapper').click(function() {
     closeIV();
 });
 
-$ivImg.on('touchstart', function(e) {
-    touchStartIV(e);
-});
-
-$ivImg.on('touchmove', function(e) {
-    touchMoveIV(e);
-});
-
-$ivImg.on('touchend', function(e) {
-    touchEndIV(e);
-});
-
 $(window).on('hashchange', function() {
     hashChange();
 });
@@ -123,6 +111,7 @@ function openIV(e, $this) {
     firstOrLast();
     $(document).on('keyup', handleKeys);
     location.hash = $this[0].childNodes[0].title.split(' ').join('_');
+    $('meta[name=viewport]').attr('content', 'width=device-width, initial-scale=1, user-scalable=yes');
 }
 
 function goLeft() {
@@ -192,43 +181,7 @@ function closeIV() {
     resetNav();
     $(document).off('keyup', handleKeys);
     location.hash = '';
-}
-
-function touchStartIV(e) {
-    var touchObj = e.originalEvent.changedTouches[0];
-    distX = 0;
-    startX = touchObj.pageX;
-    startTime = e.timeStamp;
-    e.preventDefault();
-}
-
-function touchMoveIV(e) {
-    var touchObj = e.originalEvent.changedTouches[0];
-    distX = touchObj.pageX - startX;
-    $ivImg.css({'left':distX});
-    e.preventDefault();
-}
-
-function touchEndIV(e) {
-    var touchObj = e.originalEvent.changedTouches[0];
-    elapsedTime = e.timeStamp - startTime;
-    $ivImg.css({'left':0});
-    thresholdCheck();
-    e.preventDefault();
-}
-
-function thresholdCheck() {
-    if(distX > w/4) {
-        if(firstOrLast() != 'first') {
-            goLeft();
-        }
-    } else if(distX < -w/4) {
-        if(firstOrLast() != 'last') {
-            goRight();
-        }
-    } else if(distX == 0) {
-        closeIV();
-    }
+    $('meta[name=viewport]').attr('content', 'width=device-width, initial-scale=1, user-scalable=no');
 }
 
 function hashChange() {
