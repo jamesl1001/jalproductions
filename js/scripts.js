@@ -180,12 +180,12 @@ function closeIV() {
     $iv.removeClass('iv-show');
     resetNav();
     $(document).off('keyup', handleKeys);
-    location.hash = '';
+    location.hash = '💩';
     $('meta[name=viewport]').attr('content', 'width=device-width, initial-scale=1, user-scalable=no');
 }
 
 function hashChange() {
-    if(location.hash == '') {
+    if(location.hash == '💩') {
         closeIV();
     }
 }
