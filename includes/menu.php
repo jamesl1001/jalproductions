@@ -17,7 +17,7 @@
             <li class="youtube seventh"><a href="http://www.youtube.com/user/MrLeeProductions" target="_blank">YouTube</a></li>
             <li class="newgrounds seventh"><a href="http://fu5ion.newgrounds.com/" target="_blank">Newgrounds</a></li>
             <li class="github seventh"><a href="https://github.com/jamesl1001" target="_blank">GitHub</a></li>
-            <li class="linkedin seventh"><a href="http://www.linkedin.com/profile/view?id=145872637" target="_blank">LinkedIn</a></li>
+            <li class="linkedin seventh"><a href="https://www.linkedin.com/in/jamesl1001" target="_blank">LinkedIn</a></li>
             <li class="googleplus seventh"><a href="https://plus.google.com/116274038898998688233" target="_blank">Google+</a></li>
         </ul>
         <h2>&nbsp;</h2>
