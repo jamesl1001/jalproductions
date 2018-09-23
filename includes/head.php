@@ -5,8 +5,8 @@
 <meta name="theme-color" content="#528FCC"/>
 
 <meta property="og:title" content="JaL Productions"/>
-<meta property="og:url" content="http://jalproductions.co.uk/"/>
-<meta property="og:image" content="http://jalproductions.co.uk/img/logo.jpg"/>
+<meta property="og:url" content="https://jalproductions.co.uk/"/>
+<meta property="og:image" content="https://jalproductions.co.uk/img/logo.jpg"/>
 <meta property="og:site_name" content="JaL Productions"/>
 <meta property="og:description" content="JaL Productions is the Multimedia Technology and Design portfolio of James Alexander Lee. It includes 3D modelling, animation, art and design, games, music, photography, programming and web design."/>
 
@@ -18,7 +18,7 @@
 <link rel="stylesheet" type="text/css" href="build/styles.min.css"/>
 <?php endif; ?>
 
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
 
 <link rel="shortcut icon" href="img/favicon.ico"/>
 <link rel="apple-touch-icon-precomposed" href="img/touchicon-57.png">

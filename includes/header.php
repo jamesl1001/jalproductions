@@ -7,7 +7,7 @@
     <nav class="header_nav header_nav-p">
         <ul>
             <li><a href="about" class="about" title="About">About</a></li>
-            <li><a href="http://blog.jalproductions.co.uk/" class="blog" title="Blog">Blog</a></li>
+            <li><a href="https://blog.jalproductions.co.uk/" class="blog" title="Blog">Blog</a></li>
             <li><a href="contact" class="contact" title="Contact">Contact</a></li>
         </ul>
     </nav>

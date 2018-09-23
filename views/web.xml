@@ -86,13 +86,13 @@
 				</ul>
 			]]>
 		</techused>
-		<image>http://jalproductions.co.uk/img/web/precisepixels2.jpg</image>
+		<image>img/web/precisepixels2.jpg</image>
 	</item>
 
 	<item short="jalpro4">
 		<title>JaL Productions</title>
 		<status>v4</status>
-		<url>http://jalproductions.co.uk/</url>
+		<url>https://jalproductions.co.uk/</url>
 		<client>Myself</client>
 		<brief>
 			<![CDATA[
@@ -112,7 +112,7 @@
 				</ul>
 			]]>
 		</techused>
-		<image>http://jalproductions.co.uk/img/web/jalpro4.jpg</image>
+		<image>img/web/jalpro4.jpg</image>
 	</item>
 
 	<item short="younggrafters">
@@ -135,7 +135,7 @@
 				</ul>
 			]]>
 		</techused>
-		<image>http://jalproductions.co.uk/img/web/web18-1.jpg</image>
+		<image>img/web/web18-1.jpg</image>
 	</item>
 
 	<item short="bbcwsresponsive">
@@ -143,18 +143,18 @@
 		<status></status>
 		<url multiple="true">
 			<![CDATA[
-				<a href="http://m.bbc.co.uk/afrique" target="_blank">BBC Afrique</a> | 
-				<a href="http://m.bbc.co.uk/arabic" target="_blank">BBC Arabic</a> | 
-				<a href="http://m.bbc.co.uk/hausa" target="_blank">BBC Hausa</a> | 
-				<a href="http://m.bbc.co.uk/hindi" target="_blank">BBC Hindi</a> | 
-				<a href="http://m.bbc.co.uk/indonesia" target="_blank">BBC Indonesia</a> | 
-				<a href="http://m.bbc.co.uk/mundo" target="_blank">BBC Mundo</a> | 
-				<a href="http://m.bbc.co.uk/russian" target="_blank">BBC Russian</a>
+				<a href="https://m.bbc.co.uk/afrique" target="_blank">BBC Afrique</a> | 
+				<a href="https://m.bbc.co.uk/arabic" target="_blank">BBC Arabic</a> | 
+				<a href="https://m.bbc.co.uk/hausa" target="_blank">BBC Hausa</a> | 
+				<a href="https://m.bbc.co.uk/hindi" target="_blank">BBC Hindi</a> | 
+				<a href="https://m.bbc.co.uk/indonesia" target="_blank">BBC Indonesia</a> | 
+				<a href="https://m.bbc.co.uk/mundo" target="_blank">BBC Mundo</a> | 
+				<a href="https://m.bbc.co.uk/russian" target="_blank">BBC Russian</a>
 			]]>
 		</url>
 		<client>
 			<![CDATA[
-				<a href="http://www.bbc.co.uk/worldservice/languages/index.shtml" target="_blank"><img src="http://static.bbci.co.uk/frameworks/barlesque/2.44.2/mobile/3.5/img/blocks_240.png" alt="BBC"/></a>
+				<a href="https://www.bbc.co.uk/worldservice/languages/index.shtml" target="_blank"><img src="https://static.bbci.co.uk/frameworks/barlesque/2.44.2/mobile/3.5/img/blocks_240.png" alt="BBC"/></a>
 			]]>
 		</client>
 		<brief>
@@ -162,7 +162,7 @@
 				<h5>BBC Indonesia</h5>
 				<p>The new BBC Indonesia site is claimed to be the first responsive Asian major news site.</p>
 				<p>Working off the <a href="http://m.bbc.co.uk/news" target="_blank">BBC News</a> codebase, we have produced a localised version of the site.</p>
-				<p><a href="http://responsivenews.co.uk/post/123104512468/13-tips-for-making-responsive-web-design" target="_blank">This blog post</a> written by Tom Maslen encompasses many of the features I worked on.</p>
+				<p><a href="https://responsivenews.co.uk/post/123104512468/13-tips-for-making-responsive-web-design" target="_blank">This blog post</a> written by Tom Maslen encompasses many of the features I worked on.</p>
 				<p>Also got a small mention on the <a href="http://www.bbc.co.uk/blogs/bbcinternet/2012/12/indonesian_site.html" target="_blank">BBC Internet Blog</a>.</p>
 				<h5>BBC Hausa</h5>
 				<p>This is the second site we have released.</p>
@@ -183,13 +183,13 @@
 				</ul>
 			]]>
 		</techused>
-		<image>http://jalproductions.co.uk/img/web/web17-1.jpg</image>
+		<image>img/web/web17-1.jpg</image>
 	</item>
 
 	<item short="jos">
 		<title>jOS</title>
 		<status>alpha</status>
-		<url>http://jalproductions.co.uk/projects/jOS/</url>
+		<url>https://jalproductions.co.uk/projects/jOS/</url>
 		<client>Myself</client>
 		<brief>
 			<![CDATA[
@@ -223,7 +223,7 @@
 				</ul>
 			]]>
 		</techused>
-		<image>http://jalproductions.co.uk/img/web/web16-1.jpg</image>
+		<image>img/web/web16-1.jpg</image>
 	</item>
 
 	<item short="bbcwsolympics">
@@ -232,7 +232,7 @@
 		<url></url>
 		<client>
 			<![CDATA[
-				<a href="http://www.bbc.co.uk/worldservice/languages/index.shtml" target="_blank"><img src="http://static.bbci.co.uk/frameworks/barlesque/2.44.2/mobile/3.5/img/blocks_240.png" alt="BBC"/></a>
+				<a href="https://www.bbc.co.uk/worldservice/languages/index.shtml" target="_blank"><img src="https://static.bbci.co.uk/frameworks/barlesque/2.44.2/mobile/3.5/img/blocks_240.png" alt="BBC"/></a>
 			]]>
 		</client>
 		<brief>
@@ -244,7 +244,7 @@
 					<li><strong>Latest gold medalists</strong> &mdash; A progress bar shows the total number of gold medals won; and on hovering over the white circle, a popup box displays the name, country and event of the latest gold medalist.</li>
 					<li><strong>Medal table</strong> &mdash; Displays the medals won by the top five countries.</li>
 					<li><strong>In detail</strong> &mdash; A personalised medal table showing a select list of countries selected by that language service.</li>
-					<li><a href="http://www.bbc.co.uk/sinhala/sport/2012/07/120718_olympics_2012_medals_table.shtml" target="_blank"><strong>Full medal table</strong></a> &mdash; A medal table containing all the countries whom have won medals</li>
+					<li><a href="https://www.bbc.co.uk/sinhala/sport/2012/07/120718_olympics_2012_medals_table.shtml" target="_blank"><strong>Full medal table</strong></a> &mdash; A medal table containing all the countries whom have won medals</li>
 				</ul>
 				<p>This was my first project working for the BBC.</p>
 			]]>
@@ -260,13 +260,13 @@
 				</ul>
 			]]>
 		</techused>
-		<image>http://jalproductions.co.uk/img/web/web15-1.jpg</image>
+		<image>img/web/web15-1.jpg</image>
 	</item>
 
 	<item short="innuendome">
 		<title>innuen;)do.me</title>
 		<status>alpha</status>
-		<url>http://jalproductions.co.uk/projects/innuendome/</url>
+		<url>https://jalproductions.co.uk/projects/innuendome/</url>
 		<client>Myself</client>
 		<brief>
 			<![CDATA[
@@ -289,13 +289,13 @@
 				</ul>
 			]]>
 		</techused>
-		<image>http://jalproductions.co.uk/img/web/web14-1.jpg</image>
+		<image>img/web/web14-1.jpg</image>
 	</item>
 
 	<item short="jalpro3">
 		<title>JaL Productions</title>
 		<status>v3 deprecated</status>
-		<url>http://jalproductions.co.uk/projects/jalpro3/</url>
+		<url>https://jalproductions.co.uk/projects/jalpro3/</url>
 		<client>Myself</client>
 		<brief>
 			<![CDATA[
@@ -315,7 +315,7 @@
 				</ul>
 			]]>
 		</techused>
-		<image>http://jalproductions.co.uk/img/web/web13-1.jpg</image>
+		<image>img/web/web13-1.jpg</image>
 	</item>
 
 	<item short="delhikitchen">
@@ -340,7 +340,7 @@
 				</ul>
 			]]>
 		</techused>
-		<image>http://jalproductions.co.uk/img/web/web12-1.jpg</image>
+		<image>img/web/web12-1.jpg</image>
 	</item>
 
 	<item short="peopleunited2">
@@ -372,7 +372,7 @@
 					</ul>
 			]]>
 		</techused>
-		<image>http://jalproductions.co.uk/img/web/web11-1.jpg</image>
+		<image>img/web/web11-1.jpg</image>
 	</item>
 
 	<item short="hollandtransfersolutions">
@@ -399,13 +399,13 @@
 				</ul>
 			]]>
 		</techused>
-		<image>http://jalproductions.co.uk/img/web/web10-1.jpg</image>
+		<image>img/web/web10-1.jpg</image>
 	</item>
 
 	<item short="northfleetpress">
 		<title>Northfleet Press</title>
 		<status>pending</status>
-		<url>http://jalproductions.co.uk/projects/NorthfleetPress/</url>
+		<url>https://jalproductions.co.uk/projects/NorthfleetPress/</url>
 		<client>Northfleet Press</client>
 		<brief>
 			<![CDATA[
@@ -424,7 +424,7 @@
 				</ul>
 			]]>
 		</techused>
-		<image>http://jalproductions.co.uk/img/web/web9-1.jpg</image>
+		<image>img/web/web9-1.jpg</image>
 	</item>
 
 	<item short="thepekingrestaurant">
@@ -449,7 +449,7 @@
 				</ul>
 			]]>
 		</techused>
-		<image>http://jalproductions.co.uk/img/web/web8-1.jpg</image>
+		<image>img/web/web8-1.jpg</image>
 	</item>
 
 	<item short="precisepixels">
@@ -475,7 +475,7 @@
 				</ul>
 			]]>
 		</techused>
-		<image>http://jalproductions.co.uk/img/web/web7-1.jpg</image>
+		<image>img/web/web7-1.jpg</image>
 	</item>
 
 	<item short="peopleunited1">
@@ -498,13 +498,13 @@
 				</ul>
 			]]>
 		</techused>
-		<image>http://jalproductions.co.uk/img/web/web6-1.jpg</image>
+		<image>img/web/web6-1.jpg</image>
 	</item>
 
 	<item short="jalpro2">
 		<title>JaL Productions</title>
 		<status>v2 deprecated</status>
-		<url>http://jalproductions.co.uk/projects/jalpro2/</url>
+		<url>https://jalproductions.co.uk/projects/jalpro2/</url>
 		<client>Myself</client>
 		<brief>
 			<![CDATA[
@@ -521,7 +521,7 @@
 				</ul>
 			]]>
 		</techused>
-		<image>http://jalproductions.co.uk/img/web/web5-1.jpg</image>
+		<image>img/web/web5-1.jpg</image>
 	</item>
 
 	<item short="actionongilbertssyndrome">
@@ -546,13 +546,13 @@
 				</ul>
 			]]>
 		</techused>
-		<image>http://jalproductions.co.uk/img/web/web4-1.jpg</image>
+		<image>img/web/web4-1.jpg</image>
 	</item>
 
 	<item short="webdesignuniversityproject">
 		<title>Web Design University Project</title>
 		<status></status>
-		<url>http://jalproductions.co.uk/projects/jal33/</url>
+		<url>https://jalproductions.co.uk/projects/jal33/</url>
 		<client>University Project</client>
 		<brief>
 			<![CDATA[
@@ -572,13 +572,13 @@
 				</ul>
 			]]>
 		</techused>
-		<image>http://jalproductions.co.uk/img/web/web3-1.jpg</image>
+		<image>img/web/web3-1.jpg</image>
 	</item>
 
 	<item short="learnmaths">
 		<title>'Learn Maths' Javascript University Project</title>
 		<status></status>
-		<url>http://jalproductions.co.uk/projects/LearnMaths/</url>
+		<url>https://jalproductions.co.uk/projects/LearnMaths/</url>
 		<client>University Project</client>
 		<brief>
 			<![CDATA[
@@ -597,13 +597,13 @@
 				</ul>
 			]]>
 		</techused>
-		<image>http://jalproductions.co.uk/img/web/web2-1.jpg</image>
+		<image>img/web/web2-1.jpg</image>
 	</item>
 
 	<item short="jalpro1">
 		<title>JaL Productions</title>
 		<status>v1 deprecated</status>
-		<url>http://jalproductions.co.uk/projects/jalpro1/</url>
+		<url>https://jalproductions.co.uk/projects/jalpro1/</url>
 		<client>Myself</client>
 		<brief>
 			<![CDATA[
@@ -619,7 +619,7 @@
 				</ul>
 			]]>
 		</techused>
-		<image>http://jalproductions.co.uk/img/web/web1-1.jpg</image>
+		<image>img/web/web1-1.jpg</image>
 	</item>
 
 	<!--<item short="">

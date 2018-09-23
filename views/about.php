@@ -20,7 +20,7 @@
         <div id="lastfm">
             <h3>What I'm Listening To</h3>
             <?php
-                $url  = 'http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=jamesl1001&api_key=547536d9928038ef6de3642606f6557a';
+                $url  = 'https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=jamesl1001&api_key=547536d9928038ef6de3642606f6557a';
                 $curl = curl_init();
                 curl_setopt_array($curl, array(
                     CURLOPT_RETURNTRANSFER => 1,
@@ -34,7 +34,7 @@
                 $image  = $track->image[1];
             ?>
 
-            <a href="http://www.last.fm/user/JamesL1001" target="_blank">
+            <a href="https://www.last.fm/user/JamesL1001" target="_blank">
                 <div class="track">
                     <img src="<?= $image; ?>" class="track-image"/>
                     <p>

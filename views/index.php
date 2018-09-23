@@ -13,6 +13,6 @@
     </div>
 
     <div class="feature">
-        <a href="http://www.youtube.com/watch?v=iQtAZdkXWVU" target="_blank" data-embed="http://www.youtube.com/embed/iQtAZdkXWVU?color=white&amp;modestbranding=1&amp;rel=0" id="youtube_embed"><img src="http://img.youtube.com/vi/iQtAZdkXWVU/maxresdefault.jpg" alt="Snail Caravan &mdash; 3D Animation"/></a>
+        <a href="https://www.youtube.com/watch?v=iQtAZdkXWVU" target="_blank" data-embed="https://www.youtube.com/embed/iQtAZdkXWVU?color=white&amp;modestbranding=1&amp;rel=0" id="youtube_embed"><img src="https://img.youtube.com/vi/iQtAZdkXWVU/maxresdefault.jpg" alt="Snail Caravan &mdash; 3D Animation"/></a>
     </div>
 </div>
