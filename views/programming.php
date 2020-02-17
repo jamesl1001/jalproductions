@@ -18,12 +18,15 @@
         <table>
         <?php
             $key  = file_get_contents('./php/gh.php');
-            $url  = "https://api.github.com/users/jamesl1001/repos?access_token=$key";
+            $url  = "https://api.github.com/users/jamesl1001/repos";
             $curl = curl_init();
             curl_setopt_array($curl, array(
-                CURLOPT_RETURNTRANSFER => 1,
                 CURLOPT_URL => $url,
-                CURLOPT_USERAGENT => 'JaL-User-Agent'));
+                CURLOPT_HTTPAUTH => CURLAUTH_ANY,
+                CURLOPT_USERPWD => "jamesl1001/$key",
+                CURLOPT_USERAGENT => 'JaL-User-Agent',
+                CURLOPT_RETURNTRANSFER => true
+            ));
             $repo = json_decode(curl_exec($curl));
 
             for($i = 0; $i < count($repo); $i++):
